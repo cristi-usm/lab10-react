@@ -12,10 +12,10 @@ const labels = {
 };
 
 export const Breadcrumb = () => {
-  const { pathname } = useLocation();
-  const segments = pathname.split("/").filter(Boolean);
+  const { pathname } = useLocation()
+  const segments = pathname.split("/").filter(Boolean)
 
-  if (segments.length === 0) return null;
+  if (segments.length === 0) return null
 
   const crumbs = segments.map((seg, i) => {
     const path = "/" + segments.slice(0, i + 1).join("/");
@@ -24,24 +24,20 @@ export const Breadcrumb = () => {
   });
 
   return (
-    <nav>
-      <ol>
-        <li>
+    <nav className="mb-3">
+      <ol className="breadcrumb">
+        <li className="breadcrumb-item">
           <Link to="/">Home</Link>
         </li>
         {crumbs.map((crumb, i) => {
           const isLast = i === crumbs.length - 1;
           return (
-            <li key={crumb.path}>
-              {isLast ? (
-                <span>{crumb.label}</span>
-              ) : (
-                <Link to={crumb.path}>{crumb.label}</Link>
-              )}
+            <li key={crumb.path} className={isLast ? "breadcrumb-item active" : "breadcrumb-item"}>
+              {isLast ? crumb.label : <Link to={crumb.path}>{crumb.label}</Link>}
             </li>
           );
         })}
       </ol>
     </nav>
-  );
-};
+  )
+}

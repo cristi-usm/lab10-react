@@ -14,13 +14,12 @@ export const LoginPage = () =>{
     }
 
     return (
-    <div>
-        <div>🔒</div>
-        <h4>Dev Access Required</h4>
-        <p>
-        This section contains internal developer notes and pre-release content. Click below to unlock access.
+    <div className="container py-5 text-center" style={{ maxWidth: "400px" }}>
+        <h5 className="fw-bold mb-2">🔒 Dev Access Required</h5>
+        <p className="text-muted mb-4" style={{ fontSize: "0.88rem" }}>
+        This section contains internal developer notes. Click below to unlock.
         </p>
-        <button onClick={handleUnlock}>
+        <button onClick={handleUnlock} className="btn btn-primary px-5">
         Unlock Dev Access
         </button>
     </div>

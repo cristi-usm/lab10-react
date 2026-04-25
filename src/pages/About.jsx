@@ -1,21 +1,24 @@
-
+import docs from "../data/docs.json"
 
 export const About = ()=> {
+
+    const totalArticles = docs.length;
+    const totalSections = [...new Set(docs.map((d) => d.section))].length;
+
     return (
-    <div>
-        <h3>About This Wiki</h3>
-        <p>
-        The Aethermoor Chronicles Wiki is a community-maintained documentation site for the dark fantasy RPG Aethermoor Chronicles.
-        Our goal is to cover every mechanic, class, item, and hidden secret the game has to offer.
-        </p>
-        <p>
-        This site is not officially affiliated with the developers. All content is written by players, for players.
-        If you spot an error or want to contribute, reach out via our Discord.
-        </p>
-        <div>
-        <p>Stats</p>
-        <p>15 articles · 3 sections · Updated weekly</p>
+        <div className="container py-5" style={{ maxWidth: "600px" }}>
+            <h4 className="fw-bold mb-3">About This Wiki</h4>
+            <p className="text-muted">
+            The Aethermoor Chronicles Wiki is a community-maintained guide covering every mechanic, class, and secret in the game.
+            Not officially affiliated with the developers.
+            </p>
+            <div className="card mt-4">
+            <div className="card-body">
+                <p className="fw-semibold mb-1">Stats</p>
+                <p className="text-muted mb-0" style={{ fontSize: "0.85rem" }}>
+                    {totalArticles} articles · {totalSections} sections · Updated weekly</p>
+            </div>
+            </div>
         </div>
-    </div>
-    )
+        )
 }

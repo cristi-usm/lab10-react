@@ -28,39 +28,30 @@ export const EditPage = () => {
   }
 
   return (
-    <div>
-        <h4>Editing: {page.title}</h4>
-
-        <div>
-        <label>Title</label>
+    <div style={{ maxWidth: "600px" }}>
+      <h5 className="fw-bold mb-4">Editing: {page.title}</h5>
+      <div className="mb-3">
+        <label className="form-label text-muted" style={{ fontSize: "0.82rem" }}>Title</label>
         <input
-            type="text"
-            value={title}
-            onChange={(e) => setTitle(e.target.value)}
+          type="text"
+          className="form-control"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
         />
-        </div>
-
-        <div>
-        <label>Content</label>
+      </div>
+      <div className="mb-4">
+        <label className="form-label text-muted" style={{ fontSize: "0.82rem" }}>Content</label>
         <textarea
-            rows={10}
-            value={content}
-            onChange={(e) => setContent(e.target.value)}
+          className="form-control"
+          rows={8}
+          value={content}
+          onChange={(e) => setContent(e.target.value)}
         />
-        </div>
-
-        <div>
-        <button onClick={handleSave}>
-            Save
-        </button>
-        <button onClick={handleCancel}>
-            Cancel
-        </button>
-        </div>
-
-        <p>
-        Note: Changes are not persisted (data is static JSON in this demo).
-        </p>
+      </div>
+      <div className="d-flex gap-2">
+        <button onClick={handleSave} className="btn btn-primary btn-sm px-4">Save</button>
+        <button onClick={handleCancel} className="btn btn-outline-secondary btn-sm px-4">Cancel</button>
+      </div>
     </div>
-    )
+  )
 }

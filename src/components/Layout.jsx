@@ -1,58 +1,31 @@
-import { useState } from "react"
-import { Link, NavLink, Outlet, useNavigate } from "react-router"
-// import { useKeyBoardSearch} from "../hooks/useKeyboardSearch"
+import { Link, NavLink, Outlet} from "react-router"
+import { GiDervishSwords } from "react-icons/gi";
+import { FaHome, FaSearch, FaHistory, FaGithub, FaBook, FaMapPin  } from "react-icons/fa";
+import { GrContact } from "react-icons/gr";
 
 export const Layout = () =>{
-    const navigate = useNavigate()
-    const [searchInput, setSearchInput] = useState("")
-    // useKeyBoardSearch("")
-
-
-    function handleSearchSubmit(e){
-        e.preventDefault()
-        if(searchInput.trim()){
-            navigate(`/search?q=${encodeURIComponent(searchInput.trim())}`)
-            setSearchInput("")
-        }
-    }
-
 
     return (
-        <div>
-            <nav>
-                <div>
-                    <Link to="/" >
-                    LOGO LINK
-                    </Link>
-
-                    <div>
-                        <form onSubmit={handleSearchSubmit}>
-                            <input type="text" value={searchInput} onChange={()=>setSearchInput(Element.target.value)} />
-
-                        </form>
-                        <NavLink to="/" end >Home</NavLink>
-                        <NavLink to="/docs" >Docs</NavLink>
-                        <NavLink to="/search">Search</NavLink>
-                        <NavLink to="/history">History</NavLink>
-                    </div>
-                </div>
-            </nav>
-
-            <main>
-                <Outlet />
-            </main>
-
-            <footer>
-                <div>
-                    <span>.... project ...</span>
-                    <div>
-                        <a href="#discord">Discord</a>
-                        <a href="#redit">Redit</a>
-                    </div>
-                </div>
-            </footer>
-
+    <div>
+        <nav className="navbar navbar-dark bg-dark px-3 fixed-top">
+        <Link to="/" className="navbar-brand"><GiDervishSwords /> Aethermoor</Link>
+        <div className="d-flex gap-3">
+            <NavLink to="/" end className={({ isActive }) => isActive ? "nav-link text-white fw-bold" : "nav-link text-secondary"}><FaHome  className="me-2"/>Home</NavLink>
+            <NavLink to="/docs" className={({ isActive }) => isActive ? "nav-link text-white fw-bold" : "nav-link text-secondary"}><FaBook className="me-2" />Docs</NavLink>
+            <NavLink to="/search" className={({ isActive }) => isActive ? "nav-link text-white fw-bold" : "nav-link text-secondary"}><FaSearch className="me-2" />Search</NavLink>
+            <NavLink to="/history" className={({ isActive }) => isActive ? "nav-link text-white fw-bold" : "nav-link text-secondary"}><FaHistory  className="me-2"/>History</NavLink>
+            <NavLink to="/about" className={({ isActive }) => isActive ? "nav-link text-white fw-bold" : "nav-link text-secondary"}><FaMapPin className="me-2" />About</NavLink>
+            <NavLink to="/contact" className={({ isActive }) => isActive ? "nav-link text-white fw-bold" : "nav-link text-secondary"}><GrContact className="me-2" />Contact</NavLink>
         </div>
+        </nav>
+        <main className="mt-5">
+        <Outlet />
+        </main>
+        <footer className="bg-dark text-secondary text-center py-2 mt-4 fixed-bottom" style={{ fontSize: "0.8rem" }}>
+        © 2026 Aethermoor Chronicles — Lab 10 React PAvlovshcii Radu :)
+        <a href="https://github.com/Annanas1k" target="_blank" rel="noopener noreferrer" className="text-secondary ms-2"><FaGithub className="me-2" />  GitHub</a>
+        </footer>
+    </div>
     )
 
 

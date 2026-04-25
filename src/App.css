@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f8f7ff;
+  color: #1a1a2e;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #1a1a2e 0%, #3a2a6e 100%) !important;
+  border-bottom: 3px solid #7c3aed;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: #fff !important;
+  letter-spacing: 0.04em;
+}
+
+.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: color 0.2s;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(90deg, #1a1a2e 0%, #3a2a6e 100%) !important;
+  border-top: 3px solid #7c3aed;
+  color: #a89bd4 !important;
+}
+
+footer a {
+  color: #a89bd4 !important;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff !important;
+}
+
+/* Sidebar */
+.bg-light {
+  background-color: #ffffff !important;
+  border-right: 2px solid #ede9fe !important;
+}
+
+/* Carduri */
+.card {
+  border: 1px solid #ede9fe;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(124, 58, 237, 0.06);
+  transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.card:hover {
+  border-color: #7c3aed;
+  box-shadow: 0 6px 24px rgba(124, 58, 237, 0.15);
+  transform: translateY(-2px);
+}
+
+.card-title {
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+.card-text {
+  color: #6b7280 !important;
+  font-size: 0.88rem;
+}
+
+/* Linkuri ca carduri */
+a.border {
+  background-color: #ffffff;
+  border-color: #ede9fe !important;
+  border-radius: 10px !important;
+  color: #1a1a2e !important;
+  transition: all 0.2s;
+}
+
+a.border:hover {
+  border-color: #7c3aed !important;
+  box-shadow: 0 4px 16px rgba(124, 58, 237, 0.12);
+  color: #7c3aed !important;
+  transform: translateX(3px);
+}
+
+/* Inputs */
+.form-control,
+.form-select {
+  background-color: #fff;
+  border: 1px solid #ddd6fe;
+  border-radius: 8px;
+  color: #1a1a2e;
+  font-family: "Exo 2", sans-serif;
+  font-size: 0.9rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.15);
+  color: #1a1a2e;
+}
+
+.form-control::placeholder {
+  color: #a8a8c0;
+}
+
+/* Butoane */
+.btn {
+  border-radius: 8px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #6d28d9 0%, #4c1d95 100%);
+  box-shadow: 0 4px 16px rgba(124, 58, 237, 0.35);
+  transform: translateY(-1px);
+}
+
+.btn-outline-primary {
+  border: 2px solid #7c3aed;
+  color: #7c3aed;
+  background: transparent;
+}
+
+.btn-outline-primary:hover {
+  background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
+  border-color: transparent;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(124, 58, 237, 0.25);
+}
+
+.btn-outline-secondary {
+  border: 1px solid #ddd6fe;
+  color: #6b7280;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #f5f3ff;
+  border-color: #7c3aed;
+  color: #7c3aed;
+}
+
+.btn-outline-danger {
+  border: 1px solid #f87171;
+  color: #ef4444;
+}
+
+.btn-outline-danger:hover {
+  background-color: #ef4444;
+  border-color: #ef4444;
+  color: #fff;
+}
+
+.btn-sm {
+  font-size: 0.82rem;
+  padding: 4px 12px;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  background: transparent;
+  font-size: 0.83rem;
+  padding: 0;
+}
+
+.breadcrumb-item a {
+  color: #7c3aed;
+  text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-item.active {
+  color: #6b7280;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #c4b5fd;
+}
+
+/* Badge */
+.badge {
+  font-weight: 500;
+  border-radius: 6px;
+  letter-spacing: 0.02em;
+}
+
+.bg-secondary {
+  background-color: #ede9fe !important;
+  color: #7c3aed !important;
+}
+
+/* Alert */
+.alert-warning {
+  background-color: #fffbeb;
+  border-left: 4px solid #f59e0b;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  color: #92400e;
+  border-radius: 0 8px 8px 0;
+}
+
+/* List group */
+.list-group-item {
+  border-color: #ede9fe;
+  color: #1a1a2e;
+  transition: background-color 0.15s;
+}
+
+.list-group-item:hover {
+  background-color: #f5f3ff;
+}
+
+/* Text */
+.text-muted {
+  color: #6b7280 !important;
+}
+
+.text-dark {
+  color: #1a1a2e !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1a1a2e;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* Linie despartitoare */
+hr {
+  border-color: #ede9fe;
+  opacity: 1;
+}

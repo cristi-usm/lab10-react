@@ -1,11 +1,6 @@
 import { useParams, Link } from "react-router";
 import docs from "../../data/docs.json";
 
-const sectionLabels = {
-  basics: "Basics",
-  classes: "Classes",
-  mechanics: "Mechanics",
-};
 
 export const SectionPage = () => {
   const { section } = useParams();
@@ -23,35 +18,18 @@ export const SectionPage = () => {
 
     return (
     <div>
-        <h2>
-        {sectionLabels[section] || section}
-        </h2>
-        <p>
-        {pages.length} articles in this section
-        </p>
-
-        <div>
+        <h4 className="fw-bold mb-1">{section}</h4>
+        <p className="text-muted mb-3" style={{ fontSize: "0.88rem" }}>{pages.length} articles</p>
         {pages.map((page) => (
-            <Link key={page.id} to={`/docs/${page.section}/${page.id}`}>
-            <div>
-                <div>
-                <div>{page.title}</div>
-                <div>
-                    {page.content.slice(0, 100)}...
-                </div>
-                </div>
-                <span>→</span>
-            </div>
-            <div>
-                {page.tags.map((tag) => (
-                <span key={tag}>
-                    {tag}
-                </span>
-                ))}
-            </div>
-            </Link>
+        <Link
+            key={page.id}
+            to={`/docs/${page.section}/${page.id}`}
+            className="d-block text-decoration-none border rounded p-3 mb-2 text-dark"
+        >
+            <div className="fw-semibold mb-1">{page.title}</div>
+            <div className="text-muted" style={{ fontSize: "0.82rem" }}>{page.content.slice(4, 100)}...</div>
+        </Link>
         ))}
-        </div>
     </div>
     )
 }

@@ -2,39 +2,34 @@ import { Link } from "react-router";
 import { useHistory } from "../hooks/useHistory";
 
 export const  HistoryPage = () => {
-  const { visited, clearHistory } = useHistory();
+  const { visited, clearHistory } = useHistory()
 
     return (
-    <div>
-        <div>
-        <h4>Recently Visited</h4>
+    <div className="container py-4" style={{ maxWidth: "600px" }}>
+        <div className="d-flex justify-content-between align-items-center mb-3">
+        <h5 className="fw-bold mb-0">Recently Visited</h5>
         {visited.length > 0 && (
-            <button onClick={clearHistory}>
-            Clear History
-            </button>
+            <button onClick={clearHistory} className="btn btn-sm btn-outline-danger">Clear</button>
         )}
         </div>
-
         {visited.length === 0 ? (
-        <div>
-            <div>📋</div>
-            <p>No pages visited yet.</p>
-            <Link to="/docs">Browse the docs →</Link>
-        </div>
+        <p className="text-muted">No pages visited yet. <Link to="/docs">Browse the docs →</Link></p>
         ) : (
-        <div>
-            {visited.map((item, i) => (
-            <Link key={item.id + i} to={item.path}>
-                <span>#{i + 1}</span>
-                <div>
-                <div>{item.title}</div>
-                <div>{item.section}</div>
-                </div>
-                <span>→</span>
+        visited.map((item, i) => (
+            <Link
+            key={item.id + i}
+            to={item.path}
+            className="d-flex align-items-center gap-3 text-decoration-none border rounded p-3 mb-2 text-dark"
+            >
+            <span className="text-muted" style={{ fontSize: "0.78rem" }}>#{i + 1}</span>
+            <div>
+                <div className="fw-semibold" style={{ fontSize: "0.88rem" }}>{item.title}</div>
+                <div className="text-muted" style={{ fontSize: "0.75rem" }}>{item.section}</div>
+            </div>
+            <span className="ms-auto text-muted">→</span>
             </Link>
-            ))}
-        </div>
+        ))
         )}
     </div>
-    );
+    )
 }

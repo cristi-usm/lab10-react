@@ -4,104 +4,104 @@
     "title": "Getting Started",
     "section": "basics",
     "tags": ["intro", "beginner", "setup"],
-    "content": "Welcome to Aethermoor Chronicles — a dark fantasy RPG set in a world where ancient magic and brutal warfare collide. This guide will walk you through everything you need to know to start your journey. Begin by selecting your realm, choosing a class, and understanding the core systems that drive combat and progression. Aethermoor features a living world that reacts to your decisions, so every choice carries weight. The continent of Aethermoor is split into five major regions, each with its own factions, climate, and threats. You start in the Ashveil Borderlands, a war-torn frontier region where the tutorial unfolds naturally through the story."
+    "content": "### Welcome to Aethermoor Chronicles\n\nA dark fantasy RPG set in a world where **ancient magic** and **brutal warfare** collide. This guide will walk you through everything you need to know to start your journey.\n\n#### Your First Steps:\n* **Select your realm:** Choose the world where your legend begins.\n* **Choose a class:** Pick a playstyle that suits you.\n* **Understand core systems:** Learn how combat and progression drive the game.\n\n> **Note:** Aethermoor features a living world that reacts to your decisions—every choice carries weight.\n\n#### The World Map\nThe continent is split into **five major regions**, each with its own factions, climate, and threats. You will begin in the *Ashveil Borderlands*, a war-torn frontier where the story unfolds naturally."
   },
   {
     "id": "character-creation",
     "title": "Character Creation",
     "section": "basics",
     "tags": ["beginner", "character", "setup"],
-    "content": "Character creation in Aethermoor is one of the most in-depth systems in the game. You choose a race from six options — Human, Elven, Dwarven, Orc, Faeborn, and Undying — each with unique passive traits and stat bonuses. After selecting your race, you pick one of nine base classes, then customize your starting attributes using 30 free points distributed across Strength, Dexterity, Intelligence, Vitality, and Willpower. Your appearance is fully customizable with hundreds of options. Finally, you pick a background story that grants a unique starting item and a hidden bonus that may only be discovered through gameplay. Take your time here — it defines your entire experience."
+    "content": "### Creating Your Legend\n\nCharacter creation is one of the most in-depth systems in Aethermoor. Take your time—this defines your entire experience.\n\n#### 1. Choose Your Race\nEach of the **six races** offers unique passive traits and stat bonuses:\n* **Human & Elven:** Balanced and magical affinity.\n* **Dwarven & Orc:** Toughness and raw power.\n* **Faeborn & Undying:** Unique utility and specialized survival.\n\n#### 2. Distribute Attributes\nYou have **30 free points** to distribute across:\n* `Strength` | `Dexterity` | `Intelligence` | `Vitality` | `Willpower` \n\n#### 3. Background Story\nFinally, pick a background. This grants a **unique starting item** and a hidden bonus discovered only through gameplay."
   },
   {
     "id": "controls-and-ui",
     "title": "Controls & UI Overview",
     "section": "basics",
     "tags": ["beginner", "controls", "ui"],
-    "content": "Aethermoor uses a standard WASD movement scheme with mouse-aimed abilities. The action bar at the bottom holds up to 12 ability slots, mapped to 1-0 and F1-F2. Your minimap sits in the top right corner, with a larger world map accessible via M. The inventory opens with I, the character screen with C, and the skill tree with K. The HUD shows your health globe on the left, mana globe on the right, and experience bar at the bottom. Status effects appear as icons below your health globe. You can toggle the entire HUD with Alt+Z for clean screenshots. The game fully supports controller input on all platforms."
+    "content": "### Master the Interface\n\nAethermoor uses a standard **WASD** movement scheme with mouse-aimed abilities.\n\n#### Keybinds Quick Reference:\n| Key | Action |\n| :--- | :--- |\n| **WASD** | Movement |\n| **1-0 / F1-F2** | Ability Slots (12 total) |\n| **M** | World Map |\n| **I** | Inventory |\n| **C** | Character Screen |\n| **K** | Skill Tree |\n| **Alt+Z** | Toggle HUD (Screenshots) |\n\n#### The HUD Explained\n* **Left Globe:** Health (Your life essence).\n* **Right Globe:** Mana (Required for spells).\n* **Bottom Bar:** Experience (XP) progress.\n* **Top Right:** Minimap and active tracking."
   },
   {
     "id": "progression-system",
     "title": "Progression & Leveling",
     "section": "basics",
     "tags": ["beginner", "leveling", "xp"],
-    "content": "Aethermoor has a level cap of 60, with each level requiring progressively more experience points. You earn XP from killing enemies, completing quests, discovering locations, and crafting items. Every level grants 3 attribute points and 1 skill point. At levels 10, 20, 30, 40, and 50, you unlock a major class milestone that fundamentally changes or enhances your build. Prestige mechanics unlock at level 60, allowing you to reset your character with permanent bonuses carried over. The progression feels rewarding at every stage — you are never stuck grinding for too long before the next meaningful unlock."
+    "content": "### Leveling Up\n\nThe level cap in Aethermoor is **60**. You earn XP from killing enemies, completing quests, discovering locations, and crafting.\n\n#### Level Rewards:\n* **Attribute Points:** 3 per level.\n* **Skill Points:** 1 per level.\n* **Class Milestones:** Unlocked at levels `10, 20, 30, 40, 50`—these fundamentally change your build.\n\n#### Endgame Progression:\nUpon reaching level 60, you unlock **Prestige mechanics**. This allows you to reset your character in exchange for **permanent bonuses** that carry over to your next run."
   },
   {
     "id": "death-and-respawn",
     "title": "Death & Respawn Mechanics",
     "section": "basics",
     "tags": ["beginner", "death", "mechanics"],
-    "content": "When your health reaches zero, you enter a downed state for 10 seconds where allies can revive you. If no revive happens, you respawn at the nearest Soulstone — magical checkpoints scattered across the world. On death, you drop a soul shard at your location containing 10% of your current gold and some XP. You have a limited time to recover it before it disappears. In hardcore mode, death is permanent. In Abyssal dungeons, respawning costs a dungeon token. You can also use a Revive Scroll to instantly return to the spot you died, without the penalty — these are rare and valuable consumables."
+    "content": "### Facing Defeat\n\nWhen your health reaches zero, you enter a **Downed State** for 10 seconds. If an ally revives you, you can continue the fight.\n\n#### The Consequences of Death:\n* **Soulstone Respawn:** If not revived, you return to the nearest magical checkpoint.\n* **Soul Shards:** You drop a shard containing **10% of your gold and some XP**. You must recover it before it disappears!\n* **Revive Scrolls:** Rare items that allow you to respawn exactly where you died without penalty.\n\n> **Hardcore Mode:** Be warned—in this mode, death is permanent and your character is deleted."
   },
   {
     "id": "warrior-class",
     "title": "Warrior",
     "section": "classes",
     "tags": ["class", "melee", "tank"],
-    "content": "The Warrior is the backbone of any group in Aethermoor. Built for the front lines, Warriors excel at absorbing damage and controlling enemies with powerful crowd control abilities. Their primary resource is Rage, generated by taking and dealing damage. Key abilities include Shield Slam, which deals damage and stuns, Battlecry which buffs nearby allies, and Whirlwind, a spinning AoE attack that hits all surrounding enemies. Warriors can specialize into three subclasses at level 20: Guardian (full tank), Berserker (high damage melee), or Warlord (support and command). Recommended stats: prioritize Strength and Vitality. Best paired with a Cleric or Mage in group content."
+    "content": "### The Warrior\n\nThe backbone of any group. Warriors excel at absorbing damage and controlling the battlefield.\n\n* **Resource:** `Rage` (Generated by taking/dealing damage).\n* **Stat Priority:** `Strength` > `Vitality`.\n\n#### Signature Abilities:\n1. **Shield Slam:** Damage + Stun.\n2. **Battlecry:** Buffs nearby allies.\n3. **Whirlwind:** Powerful AoE spinning attack.\n\n#### Subclasses (Level 20):\n* **Guardian:** The ultimate tank.\n* **Berserker:** High-damage melee specialist.\n* **Warlord:** Support and tactical command."
   },
   {
     "id": "mage-class",
     "title": "Mage",
     "section": "classes",
     "tags": ["class", "ranged", "magic"],
-    "content": "Mages wield the raw forces of elemental magic to devastate enemies from a distance. They are the highest damage dealers in the game but are fragile and require precise positioning. Their resource is Mana, which regenerates slowly over time and can be restored with potions or skills. Core abilities include Fireball, Frost Nova (freezes enemies in place), and Arcane Surge (a powerful channel that deals massive damage). At level 20, Mages specialize into Pyromancer (fire), Cryomancer (ice), or Arcanist (pure magic and utility). Stat priority: Intelligence above all else, then Willpower for mana pool. Best paired with a Warrior tank who can keep enemies off you."
+    "content": "### The Mage\n\nMages wield raw elemental forces to devastate enemies from a distance. High damage, but very fragile.\n\n* **Resource:** `Mana` (Regenerates slowly or via potions).\n* **Stat Priority:** `Intelligence` > `Willpower`.\n\n#### Signature Abilities:\n1. **Fireball:** Massive single-target burn.\n2. **Frost Nova:** Freezes enemies in place.\n3. **Arcane Surge:** A powerful channeled magic beam.\n\n#### Specializations:\n* **Pyromancer:** Fire and destruction.\n* **Cryomancer:** Ice and crowd control.\n* **Arcanist:** Pure magic utility and raw power."
   },
   {
     "id": "rogue-class",
     "title": "Rogue",
     "section": "classes",
     "tags": ["class", "stealth", "dps"],
-    "content": "Rogues are masters of deception and burst damage. They operate from the shadows, setting up devastating openers before enemies can react. Their resource is Energy, which regenerates quickly, making them fast-paced to play. Signature abilities include Shadowstep (teleport behind a target), Eviscerate (massive single-target damage), and Smoke Screen (escape and stealth tool). Rogues subclass at level 20 into Assassin (pure single-target burst), Shadowdancer (mobility and AoE), or Trickster (crowd control and debuffs). Stat priority: Dexterity first, then Strength for physical scaling. Rogues shine in solo content and PvP more than any other class."
+    "content": "### The Rogue\n\nMasters of deception and burst damage. They operate from the shadows and strike before the enemy can react.\n\n* **Resource:** `Energy` (Regenerates quickly).\n* **Stat Priority:** `Dexterity` > `Strength`.\n\n#### Signature Abilities:\n* **Shadowstep:** Teleport behind a target.\n* **Eviscerate:** Massive finishing move damage.\n* **Smoke Screen:** Escape and re-enter stealth.\n\n#### Subclasses:\n* **Assassin:** Pure single-target burst.\n* **Shadowdancer:** High mobility and AoE blades.\n* **Trickster:** Focuses on debuffs and CC."
   },
   {
     "id": "cleric-class",
     "title": "Cleric",
     "section": "classes",
     "tags": ["class", "healer", "support"],
-    "content": "Clerics are the primary healers of Aethermoor, channeling divine light to mend wounds and protect allies. They use Faith as their resource, built through prayer and holy actions. Core abilities include Healing Wave, Holy Shield (damage absorption), and Consecrate (ground AoE that heals allies and damages enemies). At level 20, Clerics choose between Paladin (melee healer with plate armor), High Priest (pure healer, max output), or Inquisitor (offensive cleric focused on debuffing enemies). Stat priority: Willpower for healing power, then Vitality. A skilled Cleric can keep an entire raid alive through the most brutal content — but requires active awareness at all times."
+    "content": "### The Cleric\n\nPrimary healers who channel divine light to mend wounds and protect the party.\n\n* **Resource:** `Faith` (Built through holy actions).\n* **Stat Priority:** `Willpower` > `Vitality`.\n\n#### Core Spells:\n* **Healing Wave:** Multi-target heal.\n* **Holy Shield:** Absorbs incoming damage.\n* **Consecrate:** Holy ground that heals allies and burns foes.\n\n#### Paths of Light:\n* **Paladin:** Melee healer wearing heavy plate armor.\n* **High Priest:** Maximum healing output.\n* **Inquisitor:** Offensive cleric focused on enemy debuffs."
   },
   {
     "id": "ranger-class",
     "title": "Ranger",
     "section": "classes",
     "tags": ["class", "ranged", "physical"],
-    "content": "Rangers are versatile hunters who combine ranged physical damage with a deep connection to nature and tracking. They use Focus as their resource, which builds as they land attacks. Signature abilities include Rain of Arrows (large AoE volley), Eagle Eye (massive single-target precision shot), and Tame Beast (capture and use creatures as companions). Rangers have three subclass paths at level 20: Bowmaster (pure ranged damage), Beastmaster (companion-focused), or Trapper (crowd control and zone denial). Stat priority: Dexterity for damage, then Intelligence for Focus pool. Rangers are among the most self-sufficient classes, capable of soloing content others struggle with."
+    "content": "### The Ranger\n\nVersatile hunters with a deep connection to nature and tracking.\n\n* **Resource:** `Focus` (Builds by landing attacks).\n* **Stat Priority:** `Dexterity` > `Intelligence`.\n\n#### Signature Abilities:\n* **Rain of Arrows:** Large area volley.\n* **Eagle Eye:** Precision shot for massive damage.\n* **Tame Beast:** Capture creatures to fight by your side.\n\n#### Hunter Archetypes:\n* **Bowmaster:** Pure ranged mastery.\n* **Beastmaster:** Focuses on companion strength.\n* **Trapper:** Zone denial and crowd control."
   },
   {
     "id": "combat-basics",
     "title": "Combat Fundamentals",
     "section": "mechanics",
     "tags": ["combat", "mechanics", "beginner"],
-    "content": "Combat in Aethermoor is action-oriented with a mix of skill-shot abilities and targeted spells. Every ability has a cooldown displayed on its action bar slot. Enemies telegraph their attacks with visible animations — a red circle on the ground signals an AoE you must dodge out of. Blocking reduces damage by 40% and stamina is consumed per block. Dodge rolling grants a 0.5s invincibility window and is your primary defensive tool. Critical hits deal 150% damage by default and can be increased via gear and skills. Status effects like Burn, Freeze, Bleed, and Stun interact with each other — a Frozen enemy who gets hit by Fire takes double damage and is Shattered."
+    "content": "### Combat Mechanics\n\nCombat in Aethermoor is action-oriented. Success depends on timing and positioning.\n\n#### Defensive Manuevers:\n* **Blocking:** Reduces damage by **40%** (consumes stamina).\n* **Dodge Rolling:** Grants a **0.5s invincibility window**.\n* **Telegraphs:** Watch for red circles on the ground to avoid AoE attacks.\n\n#### Elemental Interactions:\nStatus effects can combo for massive damage:\n> **Example:** A *Frozen* enemy hit by *Fire* takes double damage and is **Shattered**."
   },
   {
     "id": "crafting-system",
     "title": "Crafting & Professions",
     "section": "mechanics",
     "tags": ["crafting", "professions", "economy"],
-    "content": "Aethermoor features six crafting professions: Blacksmithing, Alchemy, Enchanting, Leatherworking, Jewelcrafting, and Runeforging. You can level all six on one character, but each requires significant material investment. Crafting recipes are learned from trainers, found as world drops, or unlocked through questlines. The crafting UI is intuitive — drag materials into slots and click Craft. Quality of output depends on your profession level and a random quality roll that can be boosted with special reagents. Master crafters can add extra slots to gear, create unique legendary-tier items not found anywhere else, and sell their services to other players for in-game gold."
+    "content": "### Professions & Crafting\n\nThere are **six main professions** in Aethermoor. You can learn them all, but mastering them takes time.\n\n#### Available Jobs:\n1. **Blacksmithing:** Armor and weapons.\n2. **Alchemy:** Potions and flasks.\n3. **Enchanting:** Gear power-ups.\n4. **Leatherworking / Jewelcrafting / Runeforging**\n\n#### Quality Matters:\nOutput quality depends on your profession level and **Special Reagents**. Master crafters can add extra slots to gear or create **Unique Legendaries**."
   },
   {
     "id": "pvp-modes",
     "title": "PvP Modes & Arenas",
     "section": "mechanics",
     "tags": ["pvp", "arena", "competitive"],
-    "content": "Aethermoor has three PvP modes. Open World PvP happens in designated conflict zones where players can freely attack each other — flagged players glow red. Arena PvP is structured 2v2 or 5v5 combat in sealed maps, with a ranked ladder that resets each season. Siege Warfare is the largest mode, where guilds battle to capture and hold fortresses across the continent. Each fortress captured grants the controlling guild resource bonuses and cosmetics. PvP stats scale separately from PvE in arenas to maintain balance. Killing players in open world gives Infamy points — accumulate too many and bounty hunters can track and pursue you."
+    "content": "### Player vs Player (PvP)\n\nTest your skills against other players in three distinct modes:\n\n* **Open World:** Conflict zones where players glow red. Watch out for *Bounty Hunters* if your Infamy gets too high!\n* **Arenas (2v2 / 5v5):** Ranked seasonal combat in sealed maps.\n* **Siege Warfare:** Guild vs Guild battles for fortresses. Control a fort to earn **resource bonuses** for your guild.\n\n> PvP stats scale separately from PvE to ensure a fair competitive environment."
   },
   {
     "id": "dungeon-guide",
     "title": "Dungeons & Raids",
     "section": "mechanics",
     "tags": ["dungeon", "raid", "endgame"],
-    "content": "Dungeons are instanced challenges for 5 players, featuring 3-5 boss encounters and various trash mob packs. Normal, Heroic, and Mythic difficulties are available, with increasing rewards and mechanical complexity. Raids are 20-player challenges representing the pinnacle of PvE content. Each raid has 8-12 bosses with unique mechanics requiring coordination. Loot is distributed through a personal loot system — everyone has a chance at their own drops. The weekly lockout resets every Monday at 6AM server time. Mythic difficulty has a separate lockout that only resets when your group defeats the final boss. Speedrun leaderboards track completion times per dungeon and update live on the official site."
+    "content": "### Endgame Challenges\n\n#### Dungeons (5 Players)\nInstances with 3-5 bosses. Available in **Normal, Heroic, and Mythic** difficulties.\n\n#### Raids (20 Players)\nThe pinnacle of PvE content. Features 8-12 bosses with unique, complex mechanics.\n\n* **Lockouts:** Weekly resets occur every **Monday at 6 AM**.\n* **Loot:** Personal loot system ensures everyone has a fair chance at gear."
   },
   {
     "id": "economy-and-trading",
     "title": "Economy & Trading",
     "section": "mechanics",
     "tags": ["economy", "trading", "gold"],
-    "content": "Aethermoor runs on a player-driven economy. The Auction House is accessible in every major city and lets you list items for other players to buy. Prices fluctuate based on supply and demand, making market awareness a genuine skill. Currency tiers are Copper, Silver, Gold, and Aether Crystals (premium currency earned in-game through high-end content). Trading directly with players is done via a secure Trade Window that shows both sides simultaneously before confirming. Vendors scattered across the world sell basic consumables and materials. Professions create the most valuable tradeable goods. Seasonal events introduce limited-time items that hold long-term value in the economy."
+    "content": "### The Player-Driven Economy\n\n#### Currency Tiers:\n* **Copper → Silver → Gold**\n* **Aether Crystals:** Premium currency earned through high-end content.\n\n#### Trading Tools:\n* **Auction House:** List items in major cities for gold.\n* **Secure Trade:** A safe window for direct player-to-player exchanges.\n\n> **Market Tip:** Prices fluctuate based on supply and demand. Keep an eye on seasonal events for rare items!"
   }
 ]
