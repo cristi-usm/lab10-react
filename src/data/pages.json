@@ -1,0 +1,107 @@
+[
+  {
+    "id": "intro",
+    "titlu": "Introduction to Testing",
+    "sectiune": "basics",
+    "taguri": ["intro", "overview"],
+    "continut": "Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs, and improving performance. Testing can be manual or automated, and is an essential part of any software development lifecycle."
+  },
+  {
+    "id": "types",
+    "titlu": "Types of Tests",
+    "sectiune": "basics",
+    "taguri": ["unit", "integration", "e2e"],
+    "continut": "There are many types of software tests. Unit tests verify individual functions or components in isolation. Integration tests check how multiple units work together. End-to-end tests simulate real user scenarios across the entire application. Regression tests ensure that new changes do not break existing functionality. Smoke tests verify basic functionality after a build."
+  },
+  {
+    "id": "test-pyramid",
+    "titlu": "The Test Pyramid",
+    "sectiune": "basics",
+    "taguri": ["pyramid", "strategy"],
+    "continut": "The test pyramid is a concept that suggests having more low-level unit tests than higher-level integration or end-to-end tests. The pyramid has unit tests at the base (many, fast, cheap), integration tests in the middle, and end-to-end tests at the top (few, slow, expensive). This structure leads to faster feedback loops and better overall test coverage."
+  },
+  {
+    "id": "tdd",
+    "titlu": "Test-Driven Development",
+    "sectiune": "basics",
+    "taguri": ["tdd", "methodology"],
+    "continut": "Test-Driven Development (TDD) is a software development approach where tests are written before the actual code. The cycle is: write a failing test, write the minimum code to pass the test, then refactor. TDD encourages better design, reduces bugs, and serves as living documentation. It can initially slow development but increases quality over time."
+  },
+  {
+    "id": "coverage",
+    "titlu": "Code Coverage",
+    "sectiune": "basics",
+    "taguri": ["coverage", "metrics"],
+    "continut": "Code coverage is a metric that measures what percentage of your source code is executed when your test suite runs. Common coverage types include statement coverage, branch coverage, function coverage, and line coverage. High coverage does not guarantee bug-free code but indicates areas that lack tests. Most teams aim for 70-90% coverage as a target."
+  },
+  {
+    "id": "jest-setup",
+    "titlu": "Setting Up Jest",
+    "sectiune": "tools",
+    "taguri": ["jest", "setup"],
+    "continut": "Jest is a popular JavaScript testing framework developed by Facebook. To set it up, install jest and its dependencies using npm or yarn. Configure it in package.json or a jest.config.js file. For TypeScript projects, add ts-jest or babel-jest. Jest provides test runners, assertion libraries, mocking utilities, and code coverage reports out of the box."
+  },
+  {
+    "id": "vitest",
+    "titlu": "Vitest Overview",
+    "sectiune": "tools",
+    "taguri": ["vitest", "vite"],
+    "continut": "Vitest is a fast unit testing framework powered by Vite. It is compatible with the Jest API, making migration easy. Vitest runs tests using native ES modules and benefits from Vite's fast HMR. It supports TypeScript, JSX, and CSS out of the box. Vitest is a great choice for Vite-based projects and offers excellent performance."
+  },
+  {
+    "id": "testing-library",
+    "titlu": "React Testing Library",
+    "sectiune": "tools",
+    "taguri": ["react", "testing-library"],
+    "continut": "React Testing Library is a set of utilities for testing React components in a user-centric way. It encourages testing behavior rather than implementation details. Key methods include render, screen, fireEvent, and userEvent. Queries like getByText, getByRole, and getByTestId help find elements as a user would. It integrates seamlessly with Jest and Vitest."
+  },
+  {
+    "id": "cypress",
+    "titlu": "Cypress for E2E Testing",
+    "sectiune": "tools",
+    "taguri": ["cypress", "e2e"],
+    "continut": "Cypress is a powerful end-to-end testing framework that runs directly in the browser. It provides a visual test runner, automatic waiting, real-time reloading, and time-travel debugging. Cypress tests are written in JavaScript and interact with the app like a real user. It supports network request interception, screenshots, and video recording of test runs."
+  },
+  {
+    "id": "playwright",
+    "titlu": "Playwright Overview",
+    "sectiune": "tools",
+    "taguri": ["playwright", "e2e", "crossbrowser"],
+    "continut": "Playwright is a cross-browser end-to-end testing tool from Microsoft. It supports Chromium, Firefox, and WebKit. Playwright offers auto-waiting, parallel test execution, network interception, and mobile device emulation. It has APIs in JavaScript, TypeScript, Python, Java, and C#. Playwright is suitable for complex multi-page scenarios and CI/CD pipelines."
+  },
+  {
+    "id": "mocking",
+    "titlu": "Mocking and Stubs",
+    "sectiune": "advanced",
+    "taguri": ["mocking", "stubs", "spies"],
+    "continut": "Mocking replaces real dependencies with controlled substitutes during testing. Jest provides jest.fn() for mock functions, jest.mock() for module mocking, and jest.spyOn() for spying on existing methods. Stubs return predefined values while spies track calls. Proper mocking isolates the unit under test and avoids side effects like network calls or database writes."
+  },
+  {
+    "id": "async-testing",
+    "titlu": "Testing Async Code",
+    "sectiune": "advanced",
+    "taguri": ["async", "promises", "timers"],
+    "continut": "Testing asynchronous code requires special handling. Use async/await or return a promise from your test. Jest provides utilities like waitFor, findBy queries, and fake timers. Always resolve or reject promises in tests to avoid false positives. For fake timers, use jest.useFakeTimers() and jest.runAllTimers() to control setTimeout and setInterval calls."
+  },
+  {
+    "id": "snapshot",
+    "titlu": "Snapshot Testing",
+    "sectiune": "advanced",
+    "taguri": ["snapshot", "ui"],
+    "continut": "Snapshot testing captures the rendered output of a component and saves it to a file. On subsequent runs, the output is compared to the saved snapshot. If they differ, the test fails. Snapshots are useful for detecting unintended UI changes. Use jest.toMatchSnapshot() or inline snapshots. Update snapshots intentionally with the --updateSnapshot flag."
+  },
+  {
+    "id": "ci-cd",
+    "titlu": "Testing in CI/CD",
+    "sectiune": "advanced",
+    "taguri": ["ci", "cd", "automation"],
+    "continut": "Integrating tests into CI/CD pipelines ensures code quality on every commit. Configure your pipeline (GitHub Actions, GitLab CI, Jenkins) to run tests automatically. Use parallel test execution to speed up pipelines. Set up coverage thresholds to fail builds that drop below acceptable levels. Publish test reports and coverage badges for visibility."
+  },
+  {
+    "id": "best-practices",
+    "titlu": "Testing Best Practices",
+    "sectiune": "advanced",
+    "taguri": ["best-practices", "tips"],
+    "continut": "Good tests are readable, maintainable, and reliable. Name tests clearly to describe expected behavior. Keep tests independent and avoid shared mutable state. Test behavior, not implementation. Use factories or fixtures for test data. Avoid testing third-party libraries. Run tests frequently. Treat test code with the same care as production code."
+  }
+]
