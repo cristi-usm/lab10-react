@@ -1,0 +1,204 @@
+{
+    "sectiuni": [
+        {
+            "id": "introducere",
+            "titlu": "Introducere",
+            "icon": "🚀"
+        },
+        {
+            "id": "api",
+            "titlu": "Referință API",
+            "icon": "⚙️"
+        },
+        {
+            "id": "ghiduri",
+            "titlu": "Ghiduri Practice",
+            "icon": "📖"
+        },
+        {
+            "id": "privat",
+            "titlu": "Privat",
+            "icon": "🔒"
+        }
+    ],
+    "pagini": [
+        {
+            "id": "ce-este-nexus",
+            "titlu": "Ce este NexusJS?",
+            "sectiune": "introducere",
+            "taguri": [
+                "overview",
+                "getting-started"
+            ],
+            "continut": "NexusJS este o librărie JavaScript modernă pentru gestionarea stării aplicațiilor reactive. Proiectată cu simplitate și performanță în minte, NexusJS oferă un API intuitiv care elimină complexitatea gestionării stării în aplicații mari. Cu NexusJS, poți crea store-uri reactive, efectua mutații sincrone și asincrone, și conecta UI-ul la date fără boilerplate. Librăria folosește Proxy-uri native JavaScript pentru a detecta modificările automat, fără a necesita imutabilitate explicită sau acțiuni manuale de dispatch."
+        },
+        {
+            "id": "instalare",
+            "titlu": "Instalare",
+            "sectiune": "introducere",
+            "taguri": [
+                "getting-started",
+                "setup",
+                "npm"
+            ],
+            "continut": "Instalarea NexusJS este simplă prin npm sau yarn. Rulează `npm install nexusjs` sau `yarn add nexusjs` în directorul proiectului tău. NexusJS suportă tree-shaking complet, deci doar codul pe care îl folosești va fi inclus în bundle-ul final. Dimensiunea minimă a librăriei este de aproximativ 3KB gzipped. Compatibil cu Node.js 16+ și toate browserele moderne (Chrome 80+, Firefox 78+, Safari 14+, Edge 80+). Nu există dependențe externe."
+        },
+        {
+            "id": "primul-store",
+            "titlu": "Primul Store",
+            "sectiune": "introducere",
+            "taguri": [
+                "getting-started",
+                "store",
+                "basics"
+            ],
+            "continut": "Crearea primului store NexusJS se face cu funcția `createStore`. Aceasta primește un obiect cu starea inițială și returnează un store reactiv. Exemplu: `const store = createStore({ count: 0, user: null })`. Accesarea stării se face prin `store.state.count`, iar modificarea prin `store.set('count', 1)` sau `store.patch({ count: 1, user: { name: 'Ana' } })`. Store-ul notifică automat toți abonații când starea se modifică."
+        },
+        {
+            "id": "reactii",
+            "titlu": "Reacții și Efecte",
+            "sectiune": "introducere",
+            "taguri": [
+                "reactivity",
+                "effects",
+                "watchers"
+            ],
+            "continut": "NexusJS oferă un sistem de reacții puternic prin funcțiile `watch` și `effect`. `watch(store, 'count', callback)` abonează o funcție la modificările unui câmp specific. `effect(() => { ... })` execută o funcție ori de câte ori vreo dependență reactivă din interior se modifică. Toate efectele sunt executate asincron în microtask-uri pentru performanță optimă. Funcțiile watcher returnează o funcție `unsubscribe` pe care trebuie să o apelezi pentru a evita memory leaks."
+        },
+        {
+            "id": "migrare-v1-v2",
+            "titlu": "Migrare de la v1 la v2",
+            "sectiune": "introducere",
+            "taguri": [
+                "migration",
+                "v2",
+                "breaking-changes"
+            ],
+            "continut": "Versiunea 2 aduce schimbări breaking față de v1. Principalele diferențe: `store.get()` a fost înlocuit cu `store.state`, `store.dispatch()` a fost împărțit în `store.set()` și `store.patch()`, middleware-urile folosesc acum o semnătură diferită. Ghidul de migrare automat este disponibil prin `npx nexusjs-migrate`. Script-ul analizează codul și aplică transformările necesare. Timp estimat de migrare pentru un proiect mediu: 30 minute."
+        },
+        {
+            "id": "create-store",
+            "titlu": "createStore()",
+            "sectiune": "api",
+            "taguri": [
+                "api",
+                "store",
+                "core"
+            ],
+            "continut": "Signatura: `createStore<T>(initialState: T, options?: StoreOptions): Store<T>`. Parametri: `initialState` - obiectul cu starea inițială (orice tip serializabil JSON), `options.plugins` - array de plugin-uri NexusJS, `options.devtools` - activează integrarea cu Redux DevTools, `options.persist` - configurație pentru persistarea stării în localStorage. Returnează un obiect `Store` cu metodele: `state`, `set`, `patch`, `subscribe`, `destroy`. Arunca `TypeError` dacă `initialState` nu este un obiect simplu."
+        },
+        {
+            "id": "store-set",
+            "titlu": "store.set()",
+            "sectiune": "api",
+            "taguri": [
+                "api",
+                "mutation",
+                "core"
+            ],
+            "continut": "Signatura: `store.set(key: string, value: any): void`. Setează o valoare în store pentru cheia specificată. Suportă notație cu punct pentru câmpuri nested: `store.set('user.name', 'Maria')`. Dacă cheia nu există, aceasta va fi creată. Modificările sunt sincrone, dar notificarea abonaților este asincronă (batch-uită). Alternativa imutabilă: `store.set('items', [...store.state.items, newItem])`. Arunca `Error` dacă store-ul a fost distrus cu `destroy()`."
+        },
+        {
+            "id": "store-patch",
+            "titlu": "store.patch()",
+            "sectiune": "api",
+            "taguri": [
+                "api",
+                "mutation",
+                "batch"
+            ],
+            "continut": "Signatura: `store.patch(partial: Partial<T>): void`. Aplică o actualizare parțială a stării, mergând superficial (shallow merge). Toate câmpurile din obiectul `partial` vor fi actualizate simultan, declanșând o singură notificare pentru abonați. Suportă câmpuri nested prin notație cu punct în chei: `store.patch({ 'user.age': 25, 'settings.theme': 'dark' })`. Câmpurile nespecificate rămân neschimbate. Ideal pentru actualizări de formular sau răspunsuri API cu multiple câmpuri."
+        },
+        {
+            "id": "store-subscribe",
+            "titlu": "store.subscribe()",
+            "sectiune": "api",
+            "taguri": [
+                "api",
+                "subscription",
+                "reactivity"
+            ],
+            "continut": "Signatura: `store.subscribe(listener: (state: T, prev: T) => void): () => void`. Abonează o funcție la orice modificare a stării. Listener-ul primește noua stare și starea anterioară. Returnează o funcție de dezabonare. Exemplu: `const unsub = store.subscribe((state) => renderApp(state)); // mai târziu: unsub()`. Listener-ii sunt executați asincron, la finalul batch-ului curent. Poți forța execuția sincronă cu `store.subscribe(fn, { sync: true })` (nu recomandat pentru performanță)."
+        },
+        {
+            "id": "plugin-devtools",
+            "titlu": "Plugin DevTools",
+            "sectiune": "api",
+            "taguri": [
+                "api",
+                "plugins",
+                "devtools",
+                "debugging"
+            ],
+            "continut": "Pluginul `nexusDevtools` conectează store-ul la Redux DevTools Extension. Instalare: `npm install @nexusjs/devtools`. Utilizare: `createStore(state, { plugins: [nexusDevtools({ name: 'MyStore' })] })`. Funcții disponibile: time-travel debugging, export/import state, vizualizare diff-uri, filtrare acțiuni. Compatibil cu extensia Redux DevTools pentru Chrome și Firefox. În producție, pluginul se dezactivează automat dacă `process.env.NODE_ENV === 'production'`."
+        },
+        {
+            "id": "tutorial-todo",
+            "titlu": "Tutorial: Aplicație Todo",
+            "sectiune": "ghiduri",
+            "taguri": [
+                "tutorial",
+                "todo",
+                "beginner"
+            ],
+            "continut": "În acest tutorial construim o aplicație Todo completă folosind NexusJS. Vom crea un store cu câmpurile: `todos: []`, `filter: 'all'`, `loading: false`. Vom implementa operațiuni CRUD pentru todo-uri, filtrare și persistare în localStorage. Structura store-ului: fiecare todo are `id`, `text`, `completed`, `createdAt`. Funcțiile store-ului: `addTodo(text)`, `toggleTodo(id)`, `deleteTodo(id)`, `setFilter(filter)`. Vom conecta store-ul la un UI simplu în HTML/CSS fără niciun framework."
+        },
+        {
+            "id": "tutorial-fetch",
+            "titlu": "Tutorial: Date Asincrone",
+            "sectiune": "ghiduri",
+            "taguri": [
+                "tutorial",
+                "async",
+                "fetch",
+                "api"
+            ],
+            "continut": "NexusJS nu are un sistem de acțiuni asincrone built-in, dar se integrează natural cu async/await. Pattern recomandat: creezi funcții async care utilizează store-ul: `async function loadUsers() { store.set('loading', true); try { const data = await fetch('/api/users').then(r => r.json()); store.patch({ users: data, loading: false }); } catch(e) { store.patch({ error: e.message, loading: false }); } }`. Poți crea un layer de 'actions' separat care importă store-ul. Acest pattern este mai simplu și testabil decât middleware-urile din alte librării."
+        },
+        {
+            "id": "tutorial-forms",
+            "titlu": "Tutorial: Gestionarea Formularelor",
+            "sectiune": "ghiduri",
+            "taguri": [
+                "tutorial",
+                "forms",
+                "validation"
+            ],
+            "continut": "Formularele complexe beneficiază enorm de NexusJS. Creează un store dedicat pentru fiecare formular: `const formStore = createStore({ fields: { name: '', email: '' }, errors: {}, touched: {}, isSubmitting: false })`. Gestionează validarea în subscriber: ori de câte ori `fields` se modifică, recalculezi erorile. La submit, setezi `isSubmitting: true`, trimiți datele, apoi resetezi sau afișezi succes. Pattern-ul separă complet logica de formular de prezentare, facilitând testarea unitară a validărilor."
+        },
+        {
+            "id": "tutorial-react",
+            "titlu": "Integrare cu React",
+            "sectiune": "ghiduri",
+            "taguri": [
+                "tutorial",
+                "react",
+                "hooks",
+                "integration"
+            ],
+            "continut": "Folosirea NexusJS cu React se face prin hook-ul `useNexus`. Instalează `@nexusjs/react`: `npm install @nexusjs/react`. Folosire: `const { state, set, patch } = useNexus(myStore)`. Hook-ul re-randează componenta numai când câmpurile accesate în render se modifică (tracking automat prin Proxy). Poți limita re-randările cu: `const count = useNexus(store, s => s.count)`. Compatible cu React 18 concurrent mode. Funcționează cu SSR (Next.js, Remix) prin `createStore` la nivel de request."
+        },
+        {
+            "id": "tutorial-testing",
+            "titlu": "Testarea cu NexusJS",
+            "sectiune": "ghiduri",
+            "taguri": [
+                "tutorial",
+                "testing",
+                "jest",
+                "vitest"
+            ],
+            "continut": "NexusJS este proiectat pentru testabilitate. Store-urile sunt simple obiecte JavaScript, fără magic global. Pattern de testare: `beforeEach(() => { store = createStore(initialState) }); test('addTodo', () => { addTodo('Test'); expect(store.state.todos).toHaveLength(1); })`. Nu ai nevoie de mock-uri speciale. Asincronicitatea testelor: folosește `await flushPromises()` sau `vi.useFakeTimers()` pentru a controla batch-urile de notificări. Acoperire de cod 100% recomandată pentru store-uri, deoarece sunt logica core a aplicației."
+        },
+        {
+            "id": "acces-restrictionat",
+            "titlu": "Acces Restricționat",
+            "sectiune": "privat",
+            "taguri": [
+                "private",
+                "internal"
+            ],
+            "continut": "Această pagină este accesibilă doar utilizatorilor autentificați. Conținut intern despre arhitectura internă a NexusJS."
+        }
+    ]
+}
