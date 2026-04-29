@@ -1,0 +1,117 @@
+[
+  {
+    "id": "instalare",
+    "titlu": "Instalare",
+    "sectiune": "start",
+    "taguri": ["setup", "vite", "npm"],
+    "continut": "Pentru instalarea librariei MiniDocsJS se foloseste npm. Creeaza proiectul, instaleaza dependentele si porneste serverul local."
+  },
+  {
+    "id": "configurare",
+    "titlu": "Configurare initiala",
+    "sectiune": "start",
+    "taguri": ["config", "setup"],
+    "continut": "Configurarea initiala presupune crearea fisierelor principale si conectarea componentelor la aplicatie."
+  },
+  {
+    "id": "structura",
+    "titlu": "Structura proiectului",
+    "sectiune": "start",
+    "taguri": ["folders", "project"],
+    "continut": "Un proiect bine organizat contine foldere pentru componente, pagini, date si stiluri."
+  },
+  {
+    "id": "primul-component",
+    "titlu": "Primul component",
+    "sectiune": "start",
+    "taguri": ["component", "jsx"],
+    "continut": "Un component React este o functie care returneaza JSX si poate primi date prin props."
+  },
+  {
+    "id": "props",
+    "titlu": "Lucrul cu props",
+    "sectiune": "start",
+    "taguri": ["props", "component"],
+    "continut": "Props sunt date transmise de la componenta parinte catre componenta copil."
+  },
+
+  {
+    "id": "routing-basic",
+    "titlu": "Routing de baza",
+    "sectiune": "routing",
+    "taguri": ["routing", "routes"],
+    "continut": "React Router permite navigarea intre pagini fara reincarcarea aplicatiei."
+  },
+  {
+    "id": "link-navlink",
+    "titlu": "Link si NavLink",
+    "sectiune": "routing",
+    "taguri": ["link", "navlink"],
+    "continut": "Link se foloseste pentru navigare interna, iar NavLink permite stilizarea linkului activ."
+  },
+  {
+    "id": "params",
+    "titlu": "Parametri dinamici",
+    "sectiune": "routing",
+    "taguri": ["params", "dynamic"],
+    "continut": "useParams citeste valorile dinamice din URL, cum ar fi sectiunea si id-ul paginii."
+  },
+  {
+    "id": "search-params",
+    "titlu": "Search Params",
+    "sectiune": "routing",
+    "taguri": ["search", "query"],
+    "continut": "useSearchParams permite citirea si modificarea parametrilor din query string."
+  },
+  {
+    "id": "navigate",
+    "titlu": "Navigare programatica",
+    "sectiune": "routing",
+    "taguri": ["navigate", "redirect"],
+    "continut": "useNavigate permite redirectionarea utilizatorului prin cod, de exemplu dupa salvarea unui formular."
+  },
+
+  {
+    "id": "use-state",
+    "titlu": "useState",
+    "sectiune": "hooks",
+    "taguri": ["hooks", "state"],
+    "continut": "useState permite memorarea si actualizarea unei valori locale intr-un component."
+  },
+  {
+    "id": "use-effect",
+    "titlu": "useEffect",
+    "sectiune": "hooks",
+    "taguri": ["hooks", "effect"],
+    "continut": "useEffect ruleaza cod dupa randare si este util pentru efecte secundare."
+  },
+  {
+    "id": "use-location",
+    "titlu": "useLocation",
+    "sectiune": "hooks",
+    "taguri": ["hooks", "location"],
+    "continut": "useLocation ofera informatii despre URL-ul curent, inclusiv pathname."
+  },
+  {
+    "id": "use-params",
+    "titlu": "useParams",
+    "sectiune": "hooks",
+    "taguri": ["hooks", "params"],
+    "continut": "useParams este folosit pentru a citi segmente dinamice din ruta."
+  },
+  {
+    "id": "use-navigate",
+    "titlu": "useNavigate",
+    "sectiune": "hooks",
+    "taguri": ["hooks", "navigate"],
+    "continut": "useNavigate este folosit pentru mutarea utilizatorului pe alta pagina fara Link."
+  },
+
+  {
+    "id": "date-secrete",
+    "titlu": "Date private",
+    "sectiune": "privat",
+    "taguri": ["private", "login"],
+    "continut": "Aceasta pagina este protejata si poate fi accesata doar dupa autentificare."
+  }
+]
