@@ -1,0 +1,40 @@
+
+.paginaDespreNoi {
+    max-width: 1200px; 
+    margin: 60px auto;
+    padding: 0 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.continutIngust {
+    max-width: 950px; 
+    margin: 0 auto;  
+}
+
+.textDespreNoi, 
+.text2DespreNoi, 
+.text3DespreNoi {
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+.imgAtelier, 
+.lemn {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 40px 0;
+}
+
+.lemn {
+    max-width: 450px; 
+    margin: 40px auto;
+}
+
+.sloganDespreNoi{
+    font-size: 34px;
+    margin-bottom: 24px;
+   
+}

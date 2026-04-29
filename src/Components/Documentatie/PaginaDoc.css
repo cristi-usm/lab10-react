@@ -1,0 +1,17 @@
+.aspectPaginaDoc { max-width: 760px; }
+.titluDoc { font-size: 1.8rem; font-weight: 700; color: #1a1a2e; margin-bottom: 0.8rem; }
+.taguri { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.2rem; }
+.eticheta { background: #fdf3dc; color: #c49a3c; padding: 0.2rem 0.6rem; border-radius: 20px; font-size: 0.8rem; text-decoration: none; border: 1px solid #e2b96f; }
+.eticheta:hover { background: #e2b96f; color: #1a1a2e; }
+.corpDoc { background: white; padding: 1.5rem; border-radius: 8px; border: 1px solid #e8e3da; line-height: 1.8; color: #333; margin-bottom: 1.2rem; }
+.actiuniDoc { display: flex; gap: 0.8rem; margin-bottom: 1rem; }
+.butonEditare { padding: 0.45rem 1rem; background: #1a1a2e; color: white; border-radius: 6px; text-decoration: none; font-size: 0.9rem; }
+.butonEditare:hover { background: #2d2d4e; }
+.butonComentarii { padding: 0.45rem 1rem; background: white; color: #1a1a2e; border: 1px solid #e8e3da; border-radius: 6px; text-decoration: none; font-size: 0.9rem; }
+.butonComentarii:hover { background: #f8f7f4; }
+.panouComentarii { margin-bottom: 1rem; }
+.navigarePrevNext { display: flex; justify-content: space-between; padding-top: 1.5rem; border-top: 1px solid #e8e3da; margin-top: 1.5rem; }
+.legPrevNext { padding: 0.6rem 1rem; background: white; border: 1px solid #e8e3da; border-radius: 6px; color: #1a1a2e; text-decoration: none; font-size: 0.88rem; }
+.legPrevNext:hover { background: #fdf3dc; border-color: #e2b96f; color: #c49a3c; }
+.butonInapoi { padding: 0.4rem 0.9rem; background: white; color: #1a1a2e; border: 1px solid #e8e3da; border-radius: 6px; cursor: pointer; margin-bottom: 1rem; font-size: 0.88rem; }
+.butonInapoi:hover { background: #f8f7f4; }

@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.paginaProdus {
+    max-width: 1100px; 
+    margin: 50px auto;
+    padding: 0 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+.containerDetaliiPr {
+    display: flex;
+    gap: 60px; 
+    align-items: stretch; 
+}
+
+.parteaStingaDetalii {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+}
+
+.imaginePrincipala {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.imagineDetaliiMare {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.sageataNav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    border: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sageataStinga { left: 15px; }
+.sageataDreapta { right: 15px; }
+
+.containerImaginiMici {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.imgMica {
+    flex: 1;
+    width: 0;
+    min-width: 0;
+    aspect-ratio: 1 / 1; 
+    object-fit: contain; 
+    background: #f6f6f6;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+.parteaDreaptaDetalii {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+
+.denumireDetalii {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+}
+
+.ratingDetalii {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.steleGrup {
+    color: #d4af37;
+    font-size: 15px;
+    margin-right: 12px;
+}
+
+.numarRecenzii {
+    font-size: 13px;
+    color: #777;
+    margin-right: 15px;
+}
+
+.inimaBtn {
+    background: #bcbcbc;
+    color: white;
+    border: none;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descriereDetalii { 
+    font-size: 20px; 
+    font-weight: 600; 
+    margin-bottom: 8px; 
+}
+
+.textDescriere { 
+    font-size: 14px; 
+    line-height: 1.6; 
+    color: #555; 
+    margin-bottom: 12px; 
+}
+
+.listaDetalii {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.listaDetalii li {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #444;
+}
+
+.valoareDimensiuni {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 5px 0 30px 0;
+}
+
+.optiuniComanda {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 30px;
+}
+
+.selectorCulori p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.selectorCantitate p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.selectCantitate {
+    width: 70px;            
+    padding: 8px;          
+    border: 1px solid #ddd; 
+    border-radius: 2px;    
+    background-color: #fff; 
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+
+.cercuriCulori { 
+    display: flex; 
+    gap: 10px; 
+}
+
+.cerc { 
+    width: 24px; 
+    height: 24px; 
+    border-radius: 50%; 
+    border: 1px solid #eee; 
+    cursor: pointer; 
+}
+
+.gri { 
+    background: #dcdcdc; 
+}
+
+.verdeOliv { 
+    background: #bab86c; 
+}
+
+.menta { 
+    background: #a8e4c1; 
+}
+
+.bej { 
+    background: #e6d5b8; 
+}
+
+.pretCumpara {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 25px;
+    margin-top: auto; 
+}
+
+.pretDetalii {
+    font-size: 28px;
+    font-weight: 400; 
+}
+
+.butonCumpara {
+    padding: 10px 25px; 
+    background-color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.butonCumpara:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.textRosu { 
+    color: #d0021b; 
+    font-weight: 700; 
+    font-size: 14px; 
+    margin-bottom: 5px; 
+}
+
+.informSuplimentare { 
+    font-size: 13px; 
+    color: #666; 
+}
+
+.sectiuneRecenzii {
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.sectiuneRecenzii h3 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cardRecenzie {
+    display: flex;
+    gap: 30px;
+    align-items: center; 
+    background-color: #fdfdfd; 
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.avatarRecenzie {
+    min-width: 100px; 
+    height: 100px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: #444;
+    border-radius: 4px; 
+}
+
+.continutRecenzie {
+    flex: 1;
+}
+
+.headerRecenzie {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+}
+
+.headerRecenzie strong {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.headerRecenzie span {
+    font-size: 14px;
+    color: #888;
+}
+
+.continutRecenzie p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #444;
+    max-width: 800px; 
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0 10px 0;
+    padding: 20px 0;
+    border-top: 1px solid #eee;
+}
+
+.socialLinks i {
+    font-size: 28px;        
+    color: #555;             
+    cursor: pointer;
+}
+
+.sageataRecenzie {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+    padding: 10px;
+}

@@ -1,0 +1,14 @@
+.aspectIstoric { max-width: 680px; }
+.antetIstoric { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.2rem; }
+.titluIstoric { font-size: 1.8rem; font-weight: 700; color: #1a1a2e; margin: 0; }
+.butonSterge { padding: 0.45rem 1rem; background: white; color: #e44; border: 1px solid #e44; border-radius: 6px; cursor: pointer; font-size: 0.88rem; }
+.butonSterge:hover { background: #e44; color: white; }
+.istoricGol { color: #666; } .istoricGol a { color: #c49a3c; }
+.listaIstoric { display: flex; flex-direction: column; gap: 0.5rem; }
+.randIstoric { display: flex; align-items: center; gap: 0.8rem; padding: 0.9rem 1rem; background: white; border: 1px solid #e8e3da; border-radius: 8px; text-decoration: none; transition: all 0.2s; }
+.randIstoric:hover { border-color: #c49a3c; box-shadow: 0 2px 8px rgba(196,154,60,0.15); }
+.numarIstoric { width: 26px; height: 26px; background: #fdf3dc; color: #c49a3c; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.78rem; font-weight: 700; flex-shrink: 0; }
+.infoIstoric { flex: 1; display: flex; flex-direction: column; }
+.infoIstoric strong { color: #1a1a2e; font-size: 0.9rem; }
+.infoIstoric span { color: #888; font-size: 0.8rem; }
+.sageataIstoric { color: #c49a3c; }

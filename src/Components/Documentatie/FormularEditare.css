@@ -1,0 +1,13 @@
+.aspectFormular { max-width: 680px; }
+.titluFormular { font-size: 1.5rem; font-weight: 700; color: #1a1a2e; margin-bottom: 1.2rem; }
+.formular { background: white; padding: 1.8rem; border-radius: 8px; border: 1px solid #e8e3da; }
+.camp { margin-bottom: 1.2rem; display: flex; flex-direction: column; gap: 0.35rem; }
+.camp label { font-weight: 600; color: #333; font-size: 0.9rem; }
+.inputFormular, .areaFormular { padding: 0.65rem; border: 1px solid #e8e3da; border-radius: 6px; font-size: 0.95rem; font-family: inherit; }
+.inputFormular:focus, .areaFormular:focus { outline: none; border-color: #c49a3c; }
+.areaFormular { resize: vertical; line-height: 1.6; }
+.butoanele { display: flex; gap: 0.8rem; }
+.butonSalveaza { padding: 0.65rem 1.4rem; background: #1a1a2e; color: white; border: none; border-radius: 6px; font-size: 0.95rem; font-weight: 600; cursor: pointer; }
+.butonSalveaza:hover { background: #2d2d4e; }
+.butonAnuleaza { padding: 0.65rem 1.4rem; background: white; color: #555; border: 1px solid #e8e3da; border-radius: 6px; font-size: 0.95rem; cursor: pointer; }
+.butonAnuleaza:hover { background: #f8f7f4; }

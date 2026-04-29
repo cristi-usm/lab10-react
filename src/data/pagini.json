@@ -1,0 +1,138 @@
+{
+  "sectiuni": [
+    {
+      "id": "canapele",
+      "titlu": "Canapele",
+      "descriere": "Ghid complet pentru canapele"
+    },
+    {
+      "id": "dormitoare",
+      "titlu": "Dormitoare",
+      "descriere": "Tot ce trebuie sa stii despre dormitoare"
+    },
+    {
+      "id": "ingrijire",
+      "titlu": "Ingrijire si Intretinere",
+      "descriere": "Cum sa ingrijesti mobila ta"
+    },
+    {
+      "id": "materiale",
+      "titlu": "Materiale",
+      "descriere": "Ghid despre materialele folosite"
+    }
+  ],
+  "pagini": [
+    {
+      "id": "introducere-canapele",
+      "titlu": "Introducere in lumea canapelelor",
+      "sectiune": "canapele",
+      "taguri": ["inceput", "general", "ghid"],
+      "continut": "Canapeaua este piesa centrala a oricarui living modern. Alegerea corecta a canapelei poate transforma complet atmosfera unei camere. In acest ghid vei invata tot ce trebuie sa stii despre tipurile de canapele, materiale si cum sa alegi modelul potrivit pentru casa ta. O canapea buna trebuie sa fie confortabila, durabila si sa se potriveasca stilului tau de viata. Fie ca preferi un stil minimalist sau unul clasic, exista o canapea perfecta pentru fiecare."
+    },
+    {
+      "id": "tipuri-canapele",
+      "titlu": "Tipuri de canapele",
+      "sectiune": "canapele",
+      "taguri": ["tipuri", "modele", "general"],
+      "continut": "Exista mai multe tipuri principale de canapele: canapele drepte (cele mai comune, potrivite pentru spatii rectangulare), canapele in forma de L (coltar, perfecte pentru spatii mari si familii numeroase), canapele extensibile (cu pat rabatabil, ideale pentru oaspeti), canapele de tip Chesterfield (cu design clasic si capitonaj), si canapele modulare (care pot fi reconfigurate dupa nevoie). Fiecare tip are avantajele si dezavantajele sale, in functie de spatiul disponibil si necesitatile tale."
+    },
+    {
+      "id": "alegerea-marimii",
+      "titlu": "Cum alegi marimea potrivita",
+      "sectiune": "canapele",
+      "taguri": ["dimensiuni", "masurare", "sfaturi"],
+      "continut": "Alegerea marimii corecte a canapelei este esentiala. Masoara camera inainte de a cumpara. Lasa cel putin 45-50 cm intre canapea si masuta de cafea. Canapeaua nu trebuie sa ocupe mai mult de doua treimi din spatiul camerei. O canapea de 2 locuri masoara in general 150-180 cm, una de 3 locuri 190-230 cm, iar un colt poate ajunge la 280-350 cm. Nu uita sa masori si usa de intrare si coridoarele pentru a te asigura ca mobila poate fi adusa in casa."
+    },
+    {
+      "id": "materiale-tapiterie",
+      "titlu": "Materiale pentru tapiterie",
+      "sectiune": "canapele",
+      "taguri": ["materiale", "tapiterie", "stofa"],
+      "continut": "Tapiteria canapelei influenteaza atat estetica cat si durabilitatea acesteia. Stofele naturale (bumbac, in, lana) sunt respirabile si confortabile dar se pateaza mai usor. Materialele sintetice (poliester, microfibra) sunt mai rezistente la pete si mai usor de curatat. Pielea naturala este eleganta si durabila dar necesita ingrijire speciala. Eco-pielea (pielea artificiala) ofera un aspect similar la un pret mai mic. Velvetul este luxos dar necesita ingrijire atenta."
+    },
+    {
+      "id": "intretinere-canapele",
+      "titlu": "Intretinerea canapelei",
+      "sectiune": "canapele",
+      "taguri": ["ingrijire", "curatare", "sfaturi"],
+      "continut": "Intretinerea regulata prelungeste viata canapelei tale. Aspira saptamanal pentru a elimina praful si firele de par. Roteste pernele periodic pentru uzura uniforma. Curata petele imediat cu o carpa umeda si detergent delicat. Evita expunerea directa la soare care decoloreaza tapiteria. O data pe an, curata profesional canapeaua pentru o igienizare completa. Foloseste huse de protectie daca ai copii sau animale de companie."
+    },
+    {
+      "id": "introducere-dormitoare",
+      "titlu": "Cum sa iti amenajezi dormitorul",
+      "sectiune": "dormitoare",
+      "taguri": ["inceput", "amenajare", "general"],
+      "continut": "Dormitorul este sanctuarul tau personal, locul unde te odihnesti si iti incarci bateriile. Amenajarea unui dormitor functional si estetic placut necesita atentie la detalii. Alege o paleta de culori calme si relaxante. Organizeaza spatiul astfel incat circulatia sa fie libera. Investeste in calitate pentru pat si saltea deoarece petrecem o treime din viata dormind. Iluminatul joacă un rol important: combina lumina generala cu lampi de citit si lumina ambientala."
+    },
+    {
+      "id": "alegerea-patului",
+      "titlu": "Alegerea patului perfect",
+      "sectiune": "dormitoare",
+      "taguri": ["pat", "saltea", "confort"],
+      "continut": "Patul este cel mai important element din dormitor. Dimensiunile standard sunt: pat single (90x200 cm), pat double (140x200 cm), pat queen (160x200 cm) si pat king (180-200x200 cm). Structura poate fi din lemn masiv, metal, sau tapitata. Salteaua trebuie aleasa in functie de greutate, pozitia de dormit si preferintele personale. Saltelele cu arcuri sunt populare si accesibile. Cele din spuma cu memorie ofera suport excelent. Saltelele din latex natural sunt ecologice si durabila."
+    },
+    {
+      "id": "depozitare-dormitor",
+      "titlu": "Solutii de depozitare pentru dormitor",
+      "sectiune": "dormitoare",
+      "taguri": ["depozitare", "organizare", "dulap"],
+      "continut": "Depozitarea eficienta este cheia unui dormitor ordonat. Dulapurile cu usi glisante economisesc spatiu in dormitoarele mai mici. Comodele ofera spatiu suplimentar pentru haine pliate. Cutiile de depozitare sub pat utilizeaza spatiul neutilizat. Rafturile deschise sunt practice dar necesita ordine. Sistemele modulare de dulap pot fi personalizate exact pe nevoile tale. Nu neglija spatiul vertical: rafturile pana la tavan maximizeaza capacitatea de depozitare."
+    },
+    {
+      "id": "iluminat-dormitor",
+      "titlu": "Iluminatul in dormitor",
+      "sectiune": "dormitoare",
+      "taguri": ["iluminat", "lumina", "atmosfera"],
+      "continut": "Iluminatul corect transforma dormitorul intr-un spatiu confortabil. Lumina principala (plafonierd sau spoturi) trebuie sa fie suficient de puternica pentru activitati de zi. Lampi de noptiera cu lumina calda sunt perfecte pentru citit seara. Leduri sub pat creeaza o atmosfera romantica. Dimmerul iti permite sa ajustezi intensitatea dupa nevoi. Alege becuri cu temperatura de culoare de 2700-3000K pentru o lumina calda si relaxanta. Evita lumina albastra seara deoarece perturba somnul."
+    },
+    {
+      "id": "culori-dormitor",
+      "titlu": "Culorile potrivite pentru dormitor",
+      "sectiune": "dormitoare",
+      "taguri": ["culori", "design", "atmosfera"],
+      "continut": "Culorile influenteaza starea de spirit si calitatea somnului. Albastrul deschis si verdele sage promoveaza relaxarea si calmul. Bejul si crema creeaza o atmosfera calda si primitoare. Gri-ul si albul sunt moderne si versatile. Evita culorile foarte saturate si luminoase care pot fi stimulante. O singura perete accent intr-o culoare mai inchisa adauga profunzime fara a coplesii spatiul. Texturile (tapete, vopsele decorative) adauga interes vizual fara culori agresive."
+    },
+    {
+      "id": "curatarea-lemnului",
+      "titlu": "Curatarea mobilei din lemn",
+      "sectiune": "ingrijire",
+      "taguri": ["lemn", "curatare", "intretinere"],
+      "continut": "Mobila din lemn necesita ingrijire regulata pentru a-si pastra frumusetea. Sterge praful saptamanal cu o carpa moale si uscata sau usor umezita. Foloseste produse speciale pentru lemn, evita detergentii agresivi. Aplica ceara sau ulei de lemn de doua ori pe an pentru protectie si luciu. Evita expunerea la umiditate excesiva sau caldura directa. Petele trebuie tratate imediat: tamponare delicata, fara frecare. Zgarieturile mici pot fi remediate cu creioane speciale sau pasta de nuci."
+    },
+    {
+      "id": "ingrijirea-pielii",
+      "titlu": "Ingrijirea mobilei din piele",
+      "sectiune": "ingrijire",
+      "taguri": ["piele", "curatare", "ingrijire"],
+      "continut": "Pielea naturala este un material nobil care necesita ingrijire speciala. Curata lunar cu produse specifice pentru piele. Conditioneaza la fiecare 3-6 luni pentru a preveni uscarea si crapaturile. Evita expunerea directa la soare care decoloreaza si usuca pielea. Petele de apa se indeparteaza rapid cu o carpa uscata. Petele de grasime necesita pudra de talc lasata sa absoarba peste noapte. Nu folosi alcool sau solventi care deterioreaza definitiv pielea. O investitie mica in produse de ingrijire prelungeste semnificativ viata mobilei."
+    },
+    {
+      "id": "umiditatea-si-mobila",
+      "titlu": "Efectul umiditatii asupra mobilei",
+      "sectiune": "ingrijire",
+      "taguri": ["umiditate", "lemn", "prevenire"],
+      "continut": "Umiditatea este unul dintre cei mai mari dusmani ai mobilei din lemn. Umiditatea excesiva (peste 65%) poate cauza umflarea lemnului, aparitia mucegaiului si deteriorarea furnirului. Umiditatea prea scazuta (sub 40%) usuca lemnul si poate cauza crapaturi. Mentine umiditatea in casa intre 45-55% pentru conditii optime. Foloseste un umidificator iarna cand incalzirea reduce umiditatea aerului. Aeriseste regulat pentru a preveni acumularea de umiditate. Nu aseza mobila direct langa surse de caldura sau aer conditionat."
+    },
+    {
+      "id": "lemn-masiv",
+      "titlu": "Lemnul masiv - caracteristici si avantaje",
+      "sectiune": "materiale",
+      "taguri": ["lemn masiv", "natural", "durabilitate"],
+      "continut": "Lemnul masiv este materialul traditional si cel mai apreciat in mobila de calitate. Fiecare piesa este unica, cu textura si desenul propriu. Este extrem de durabil - mobila din lemn masiv poate dura generatii intregi. Poate fi lustruit, vopsit sau tratat in multiple moduri. Speciile comune in mobila romaneasca sunt: stejarul (foarte dur si durabil), fagul (rezistent si usor de prelucrat), paltinul (deschis la culoare, elegant), nucul (inchis la culoare, premium), si pinul (accesibil, cu aspect rustic)."
+    },
+    {
+      "id": "pal-si-mdf",
+      "titlu": "PAL si MDF - ce trebuie sa stii",
+      "sectiune": "materiale",
+      "taguri": ["PAL", "MDF", "placi", "modern"],
+      "continut": "PAL (placi aglomerate) si MDF (placi din fibre de densitate medie) sunt materialele moderne cel mai frecvent folosite in mobila accesibila. PAL-ul este format din aschii de lemn comprimate si cleiate - este ieftin si rezistent la umiditate moderata. MDF-ul are o suprafata mai neteda, ideala pentru vopsire si furnir - permite detalii fine. Ambele materiale sunt acoperite cu furnir sau folie decorativa. Dezavantajul principal este sensibilitatea la umiditate excesiva si la loviri. Calitatea variaza mult - cauta producatori certificati."
+    },
+    {
+      "id": "tapiterii-moderne",
+      "titlu": "Tapiterii moderne - tendinte si optiuni",
+      "sectiune": "materiale",
+      "taguri": ["tapiterie", "stofa", "modern", "tendinte"],
+      "continut": "Tendintele moderne in tapiterie combina estetica cu functionalitatea. Tesaturile tehnice rezistente la pete si uzura au devenit standard in mobila de calitate. Materialele reciclate si ecologice castiga teren in preferintele consumatorilor. Velvetul a revenit in moda cu nuante pastelate si pamantii. Culourile texturate (boucle, teddy) adauga caldura vizuala. Pielea vegana ofera aspectul pielii naturale fara produse animale. Tesaturile antimicrobiene sunt recomandate in locuintele cu copii mici sau animale de companie."
+    }
+  ]
+}

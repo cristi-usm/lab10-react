@@ -1,0 +1,8 @@
+.aspectAutentificare { display: flex; justify-content: center; padding: 3rem 1rem; }
+.cardAutentificare { background: white; border: 1px solid #e8e3da; border-radius: 12px; padding: 2rem; max-width: 440px; width: 100%; text-align: center; }
+.titluAutentificare { font-size: 1.5rem; font-weight: 700; color: #1a1a2e; margin-bottom: 0.8rem; }
+.textAutentificare { color: #555; margin-bottom: 1.2rem; }
+.redirectareInfo { background: #f8f7f4; border: 1px solid #e8e3da; border-radius: 6px; padding: 0.7rem; margin-bottom: 1.2rem; text-align: left; font-size: 0.88rem; }
+.redirectareInfo code { display: block; margin-top: 0.3rem; color: #c49a3c; font-family: monospace; }
+.butonLogin { width: 100%; padding: 0.8rem; background: #1a1a2e; color: white; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; }
+.butonLogin:hover { background: #2d2d4e; }

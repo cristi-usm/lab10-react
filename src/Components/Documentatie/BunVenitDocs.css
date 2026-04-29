@@ -1,0 +1,13 @@
+.aspectBunVenit { max-width: 800px; }
+.erou { background: linear-gradient(135deg, #1a1a2e, #2d2d4e); color: white; padding: 2.5rem; border-radius: 10px; margin-bottom: 2rem; }
+.titluErou { font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; }
+.textErou { color: rgba(255,255,255,0.8); margin-bottom: 1.2rem; }
+.butonCauta { display: inline-block; padding: 0.6rem 1.4rem; background: #e2b96f; color: #1a1a2e; border-radius: 6px; text-decoration: none; font-weight: 600; }
+.butonCauta:hover { background: #d4a85e; }
+.titluSectiuni { font-size: 1.2rem; font-weight: 700; color: #1a1a2e; margin-bottom: 1rem; }
+.grilaSectiuni { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+.cardSectiune { background: white; border: 1px solid #e8e3da; border-radius: 8px; padding: 1.2rem; text-decoration: none; display: block; transition: all 0.2s; }
+.cardSectiune:hover { border-color: #c49a3c; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(196,154,60,0.15); }
+.cardSectiune h3 { font-size: 1rem; font-weight: 700; color: #1a1a2e; margin-bottom: 0.3rem; }
+.cardSectiune p { color: #666; font-size: 0.85rem; margin-bottom: 0.8rem; }
+.numarPagini { color: #c49a3c; font-size: 0.82rem; font-weight: 600; }

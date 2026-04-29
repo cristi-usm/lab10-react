@@ -1,0 +1,85 @@
+.footer {
+  background-color: #fcfcfc; 
+  padding: 60px 20px 30px;
+  margin-top: 80px;
+  border-top: 1px solid #eee;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footerNume {
+  font-size: 24px;
+  font-weight: 300;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.footerSlogan {
+  font-size: 14px;
+  color: #888;
+  font-style: italic;
+}
+
+.footerContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.footerContact p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  color: #555;
+  font-size: 15px;
+}
+
+.footerIcon {
+  margin-right: 12px;
+  font-size: 16px;
+  color: #444; 
+  width: 20px;
+  display: inline-block;
+}
+
+.footerContact a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.footerContact a:hover {
+  color: #000;
+}
+
+.footerCopyright {
+  margin-top: 20px;
+  padding-top: 25px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.footerCopyright p {
+  font-size: 13px;
+  color: #999;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 40px 15px 20px;
+  }
+  
+  .footer-nume {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,5 @@
+.aspectPrivat { max-width: 680px; }
+.titluPrivat { font-size: 1.8rem; font-weight: 700; color: #1a1a2e; margin-bottom: 0.8rem; }
+.textPrivat { color: #555; margin-bottom: 1.2rem; }
+.listaPrivata { background: white; border: 1px solid #e8e3da; border-left: 4px solid #c49a3c; border-radius: 8px; padding: 1.2rem 1.5rem; list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+.listaPrivata li { color: #444; padding: 0.3rem 0; border-bottom: 1px solid #f0ece4; }

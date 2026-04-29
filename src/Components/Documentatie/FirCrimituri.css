@@ -1,0 +1,5 @@
+.firCrimituri { font-size: 0.85rem; color: #888; margin-bottom: 1.5rem; }
+.legaturaNivel { color: #888; text-decoration: none; }
+.legaturaNivel:hover { color: #c49a3c; }
+.separator { color: #bbb; margin: 0 0.2rem; }
+.nivelCurent { color: #333; font-weight: 500; }

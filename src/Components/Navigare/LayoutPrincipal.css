@@ -1,0 +1,127 @@
+.aspectLayoutPrincipal {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.antetLayout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 64px;
+  background: #1a1a2e;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.antetStanga {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logoLayout {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #e2b96f;
+  text-decoration: none;
+}
+
+.navigareAntet {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navigareAntet a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.navigareAntet a:hover {
+  color: white;
+}
+
+.legaturaDocs {
+  background: #e2b96f;
+  color: #1a1a2e !important;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.cautareAntet {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.campCautareAntet {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 4px;
+  background: rgba(255,255,255,0.1);
+  color: white;
+  width: 200px;
+  font-size: 0.9rem;
+}
+
+.campCautareAntet::placeholder {
+  color: rgba(255,255,255,0.5);
+}
+
+.campCautareAntet:focus {
+  outline: none;
+  border-color: #e2b96f;
+  background: rgba(255,255,255,0.15);
+}
+
+.butonCautareAntet {
+  padding: 0.4rem 0.8rem;
+  background: #e2b96f;
+  color: #1a1a2e;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+
+.butonCautareAntet:hover {
+  background: #d4a85e;
+}
+
+.continutPrincipal {
+  flex: 1;
+}
+
+.subsolLayout {
+  background: #1a1a2e;
+  color: rgba(255,255,255,0.7);
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.legaturiSubsol {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.legaturiSubsol a {
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.legaturiSubsol a:hover {
+  color: #e2b96f;
+}

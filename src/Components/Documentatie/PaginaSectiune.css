@@ -1,0 +1,11 @@
+.aspectSectiune { max-width: 760px; }
+.titluSectiunePagina { font-size: 1.8rem; font-weight: 700; color: #1a1a2e; margin-bottom: 0.4rem; }
+.descriereSectiunePagina { color: #666; margin-bottom: 1.5rem; }
+.listaSectiune { display: flex; flex-direction: column; gap: 0.7rem; }
+.randSectiune { display: flex; align-items: flex-start; gap: 1rem; padding: 1rem 1.2rem; background: white; border: 1px solid #e8e3da; border-radius: 8px; text-decoration: none; transition: all 0.2s; }
+.randSectiune:hover { border-color: #c49a3c; transform: translateX(4px); }
+.numarRand { width: 28px; height: 28px; background: #1a1a2e; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 700; flex-shrink: 0; }
+.infoRand { flex: 1; display: flex; flex-direction: column; gap: 0.3rem; }
+.infoRand strong { color: #1a1a2e; font-size: 0.95rem; }
+.infoRand span { color: #666; font-size: 0.85rem; }
+.sageataRand { color: #c49a3c; font-size: 1.1rem; }
