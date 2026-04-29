@@ -1,0 +1,281 @@
+{
+  "sections": [
+    {
+      "slug": "newgame",
+      "title": "New Game",
+      "summary": "The first hours of SkyBlock farming are about unlocking the Garden, learning crop flow, and building a clean route.",
+      "pages": [
+        {
+          "id": "unlocking-the-garden",
+          "title": "Unlocking the Garden",
+          "summary": "How to get access to the Garden and why it is the right home for a farming-focused profile.",
+          "tags": ["start", "garden", "setup"],
+          "content": [
+            "Unlock the Garden as early as possible and treat it as your permanent farming base.",
+            "The Garden gives you a focused place to level crops, complete visitors, and later chase contest medals without spreading effort across the whole island.",
+            "Your first goal is not perfect efficiency. It is to create a stable loop where planting, harvesting, and replanting feel fast and repeatable."
+          ],
+          "highlights": [
+            "Rush the Garden unlock before buying expensive farming gear.",
+            "Keep the first plots compact and easy to walk.",
+            "Plan for repeatable farming routes, not wide decorative fields."
+          ]
+        },
+        {
+          "id": "first-tools-and-seeds",
+          "title": "First Tools and Seeds",
+          "summary": "What to use before your real farming setup exists.",
+          "tags": ["tools", "seeds", "early"],
+          "content": [
+            "Start with the best crop-specific hoe or tool you can afford, even if it looks basic.",
+            "Early farming is about speed of acquisition. Seeds, replanting items, and a tool with sensible speed matter more than flashy stats.",
+            "If a crop is annoying to maintain, skip it for now and return later when your farming fortune and collection bonuses are higher."
+          ],
+          "highlights": [
+            "Buy only what improves harvesting speed immediately.",
+            "Keep seed management simple during the first levels.",
+            "Choose one crop and commit to it for a while."
+          ]
+        },
+        {
+          "id": "early-crops-and-leveling",
+          "title": "Early Crops and Leveling",
+          "summary": "How to move from farming level 1 to around 10 without wasting time.",
+          "tags": ["leveling", "xp", "routine"],
+          "content": [
+            "Pick one or two easy crops and farm them until your farming level starts climbing consistently.",
+            "Wheat, carrots, potatoes, and sugar cane are reliable because the route is easy to understand and the replant cycle stays cheap.",
+            "At this stage, the goal is raw Farming XP and comfort with movement. A smooth route will matter more than perfect profit."
+          ],
+          "highlights": [
+            "Prioritize Farming XP over profit in the first levels.",
+            "Keep the crop path short and readable.",
+            "Learn one movement pattern before swapping crops."
+          ]
+        },
+        {
+          "id": "visitors-and-plot-flow",
+          "title": "Visitors and Plot Flow",
+          "summary": "Why visitors, plot layout, and movement discipline matter from day one.",
+          "tags": ["visitors", "layout", "plots"],
+          "content": [
+            "Visitors reward you for keeping a healthy Garden loop, so do not ignore them even when you are grinding levels.",
+            "Plot flow should let you farm, accept visitors, and restock without crossing your own field too much.",
+            "The best beginner setup is boring on purpose: one crop, one path, and one obvious reset point."
+          ],
+          "highlights": [
+            "Do not block visitor access with messy plots.",
+            "Leave space for future crop expansion.",
+            "Treat visitors as part of the farming loop, not a side activity."
+          ]
+        },
+        {
+          "id": "first-contests",
+          "title": "First Contests",
+          "summary": "How to enter Jacob-style contests before you are fully optimized.",
+          "tags": ["contests", "jacob", "medals"],
+          "content": [
+            "Join contests early even if your score is modest, because the first medals and contest XP unlock long-term progress.",
+            "The point of the first contests is to learn crop pacing, not to win every time.",
+            "Use contests to identify which crop feels natural to farm for long sessions and which crops you should avoid until later."
+          ],
+          "highlights": [
+            "Enter contests as soon as they are available.",
+            "Learn the rhythm of the crop instead of forcing it.",
+            "Use medals as a long-term farming investment."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "middlegame",
+      "title": "Middle Game",
+      "summary": "This is where farming starts becoming a money and progression engine instead of just a leveling method.",
+      "pages": [
+        {
+          "id": "farming-fortune-basics",
+          "title": "Farming Fortune Basics",
+          "summary": "The stat that turns farming from slow to rewarding.",
+          "tags": ["fortune", "stats", "progression"],
+          "content": [
+            "Farming Fortune is the stat that makes every crop feel better, so learn where it comes from and stack it early.",
+            "Tools, armor, accessories, pets, and the Garden all contribute to your total fortune, which means no single upgrade solves everything.",
+            "Once farming fortune begins to rise, money per hour and medal chances improve at the same time."
+          ],
+          "highlights": [
+            "Track fortune gains after every meaningful upgrade.",
+            "Do not buy a single expensive item and stop there.",
+            "Balance fortune with comfort and crop speed."
+          ]
+        },
+        {
+          "id": "armor-equipment-and-accessories",
+          "title": "Armor, Equipment, and Accessories",
+          "summary": "The middle-game gear path that matters most for farming efficiency.",
+          "tags": ["gear", "armor", "accessories"],
+          "content": [
+            "Your armor should evolve from cheap early pieces into sets that boost farming fortune and crop-specific performance.",
+            "Equipment slots are easy to forget, but they contribute a lot once you start stacking serious upgrades.",
+            "Accessory bag planning also matters, because even small gains across many items add up to a noticeable stat boost."
+          ],
+          "highlights": [
+            "Upgrade the full setup, not only the weapon tool.",
+            "Do not ignore equipment and accessory stats.",
+            "Keep an eye on crop speed so fortune does not feel clunky."
+          ]
+        },
+        {
+          "id": "pets-and-amulets-upgrades",
+          "title": "Pets and Amulets Upgrades",
+          "summary": "How pets and accessory upgrades push your profile toward real farming power.",
+          "tags": ["pets", "amulets", "accessories"],
+          "content": [
+            "The best farming pet depends on your budget and your current crop goals, but the Elephant is the classic benchmark for farming fortune.",
+            "Accessory upgrades, which many players casually call amulets, are a major source of progress because they scale your profile beyond a single farm.",
+            "If you want a strong farming account, do not treat pets and accessories as optional extras. They are part of the main progression path."
+          ],
+          "highlights": [
+            "Pets and accessories should grow with your farming level.",
+            "The Elephant is a long-term target for pure farming value.",
+            "Upgrade accessories steadily instead of waiting for the perfect moment."
+          ]
+        },
+        {
+          "id": "crop-milestones-and-special-seeds",
+          "title": "Crop Milestones and Special Seeds",
+          "summary": "When to move beyond basic crops and start targeting better farming yields.",
+          "tags": ["milestones", "crops", "seeds"],
+          "content": [
+            "Different crops become better at different points of your progression, so learn the milestone that makes a crop worth serious grinding.",
+            "As your Garden expands, special seeds and crop-specific upgrades become more valuable because they reduce downtime and make longer sessions smoother.",
+            "This is where farming starts feeling planned instead of improvised."
+          ],
+          "highlights": [
+            "Switch crops when the new one clearly rewards the investment.",
+            "Keep special seed management organized.",
+            "Use milestones as a reason to re-evaluate your route."
+          ]
+        },
+        {
+          "id": "jacobs-routine",
+          "title": "Jacob's Contest Routine",
+          "summary": "A stable contest routine is the difference between random medals and reliable progress.",
+          "tags": ["jacob", "contests", "routine"],
+          "content": [
+            "Jacob's contests reward preparation, so the middle game is the right time to build habits around them.",
+            "Have your tools, replant items, and inventory arrangement ready before the contest starts.",
+            "The best contest routine is repeatable: enter, farm hard, check score, and compare your result with the last session."
+          ],
+          "highlights": [
+            "Prepare before the contest timer starts.",
+            "Keep your inventory layout consistent.",
+            "Review results so each contest teaches you something."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "endgame",
+      "title": "End Game",
+      "summary": "At this point the guide becomes about perfecting farming fortune, contest efficiency, and the final route to level 70.",
+      "pages": [
+        {
+          "id": "max-farming-fortune",
+          "title": "Max Farming Fortune",
+          "summary": "How to squeeze every last point out of your farming profile.",
+          "tags": ["maxing", "fortune", "late-game"],
+          "content": [
+            "Maxing farming fortune is a sum of small optimizations, not one giant upgrade.",
+            "You want the best crop-specific gear, the right pet, strong accessory values, and the Garden boosts that match your current plan.",
+            "Once the profile is close to complete, every tiny improvement becomes more expensive, so choose upgrades based on long-term value."
+          ],
+          "highlights": [
+            "Stack small upgrades until the numbers stop moving quickly.",
+            "Compare cost per fortune point before buying.",
+            "Use long-term upgrades over temporary comfort items."
+          ]
+        },
+        {
+          "id": "fermento-and-perfect-gear",
+          "title": "Fermento and Perfect Gear",
+          "summary": "The armor and equipment targets many farming players eventually aim for.",
+          "tags": ["fermento", "gear", "armor"],
+          "content": [
+            "Fermento-style progress is the place where farming gear finally starts feeling expensive but meaningful.",
+            "At this stage, you are not buying random upgrades. You are finishing sets that directly push farming fortune and consistency.",
+            "A perfect setup is only perfect if it matches the crops and the time you actually spend farming."
+          ],
+          "highlights": [
+            "Finish sets instead of mixing too many half-upgrades.",
+            "Match gear to the crop you farm most.",
+            "Value consistency as much as raw stats."
+          ]
+        },
+        {
+          "id": "pests-composter-and-replenish",
+          "title": "Pests, Composter, and Replenish",
+          "summary": "Utility systems that matter once your farm sessions get long.",
+          "tags": ["utility", "replenish", "garden"],
+          "content": [
+            "Long farming sessions are smoother when you manage pests, composter value, and replenishing tools properly.",
+            "These systems do not feel flashy, but they keep your farm profitable and reduce annoying interruptions.",
+            "The more serious your farming gets, the more you should care about maintenance details that beginners ignore."
+          ],
+          "highlights": [
+            "Keep the Garden maintained before it becomes a problem.",
+            "Do not let utility systems slow down your main farm loop.",
+            "Treat maintenance as part of the grind."
+          ]
+        },
+        {
+          "id": "contest-minmaxing",
+          "title": "Contest Minmaxing",
+          "summary": "How to push contest results once your setup is already strong.",
+          "tags": ["contests", "minmaxing", "medals"],
+          "content": [
+            "Contest minmaxing is where route quality, gear tuning, and farming discipline all matter at once.",
+            "The goal is not just to participate. It is to make every minute count toward the final score.",
+            "By the endgame, small mistakes like slow turns, poor inventory management, or a bad crop choice can cost more than one upgrade would have gained."
+          ],
+          "highlights": [
+            "Optimize route length and turn speed.",
+            "Keep your setup consistent between contests.",
+            "Respect time lost to inefficiency."
+          ]
+        },
+        {
+          "id": "from-1-to-70-roadmap",
+          "title": "From Level 1 to 70 Roadmap",
+          "summary": "The full farming path from the first crop to the final level cap.",
+          "tags": ["roadmap", "level 70", "summary"],
+          "content": [
+            "Level 1 to 70 is a long route, but the logic stays simple: unlock the Garden, farm smart, improve gear, and keep contest progress flowing.",
+            "New game is about comfort and learning. Middle game is about fortune, accessories, pets, and real crop choice. End game is about polishing the full setup and grinding efficiently until the cap.",
+            "If you keep the route organized and keep upgrading on purpose, farming becomes one of the cleanest progression systems in the game."
+          ],
+          "highlights": [
+            "Unlock first, optimize second, minmax last.",
+            "Let the Garden be your home base for the entire grind.",
+            "Use every upgrade to support the same long-term route."
+          ]
+        }
+      ]
+    }
+  ],
+  "privatePages": [
+    {
+      "id": "late-game-checklist",
+      "title": "Late Game Checklist",
+      "summary": "A private-only notes page for the final farming polish pass.",
+      "tags": ["private", "checklist", "endgame"],
+      "content": [
+        "This private page is a mock example for the simulated protected area.",
+        "Use it to keep a final checklist for gear, contest medals, and the last upgrade targets before you call the guide complete."
+      ],
+      "highlights": [
+        "Protected route example for the lab.",
+        "Accessible only after the mock login flag is set."
+      ]
+    }
+  ]
+}
