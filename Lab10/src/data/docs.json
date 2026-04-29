@@ -1,0 +1,19 @@
+[
+  { "id": "intro", "titlu": "Introducere", "sectiune": "ghid", "taguri": ["start"], "continut": "Aceasta este introducerea in DevCore." },
+  { "id": "instalare", "titlu": "Instalare", "sectiune": "ghid", "taguri": ["setup"], "continut": "Pentru instalare foloseste npm install." },
+  { "id": "configurare", "titlu": "Configurare", "sectiune": "ghid", "taguri": ["setup"], "continut": "Configureaza aplicatia folosind config.json." },
+  { "id": "structura", "titlu": "Structura proiect", "sectiune": "ghid", "taguri": ["structura"], "continut": "Proiectul este impartit pe module." },
+  { "id": "deploy", "titlu": "Deploy", "sectiune": "ghid", "taguri": ["deploy"], "continut": "Pentru deploy foloseste vite build." },
+
+  { "id": "routing", "titlu": "Routing", "sectiune": "api", "taguri": ["router"], "continut": "Routingul este gestionat de React Router." },
+  { "id": "hooks", "titlu": "Hooks", "sectiune": "api", "taguri": ["hooks"], "continut": "Foloseste useState si useEffect." },
+  { "id": "context", "titlu": "Context API", "sectiune": "api", "taguri": ["context"], "continut": "Context permite state global." },
+  { "id": "params", "titlu": "useParams", "sectiune": "api", "taguri": ["router"], "continut": "Citeste parametrii din URL." },
+  { "id": "navigate", "titlu": "useNavigate", "sectiune": "api", "taguri": ["router"], "continut": "Navigare programatica." },
+
+  { "id": "ui", "titlu": "UI Design", "sectiune": "avansat", "taguri": ["design"], "continut": "Foloseste CSS modern." },
+  { "id": "performanta", "titlu": "Performanta", "sectiune": "avansat", "taguri": ["optimizare"], "continut": "Optimizeaza randarile." },
+  { "id": "lazy", "titlu": "Lazy Loading", "sectiune": "avansat", "taguri": ["optimizare"], "continut": "Incarca componente la nevoie." },
+  { "id": "seo", "titlu": "SEO", "sectiune": "avansat", "taguri": ["seo"], "continut": "Optimizare pentru motoare." },
+  { "id": "testing", "titlu": "Testing", "sectiune": "avansat", "taguri": ["test"], "continut": "Testeaza cu jest." }
+]

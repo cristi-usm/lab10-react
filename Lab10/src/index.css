@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, Arial;
+  background: #0b1220;
+  color: #e5e7eb;
+}
+
+/* ===================== */
+/* HEADER */
+/* ===================== */
+header {
+  background: #0f172a;
+  border-bottom: 1px solid #1f2937;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+nav a {
+  color: #94a3b8;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: white;
+}
+
+/* input search */
+header input {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background: #0b1220;
+  color: white;
+  outline: none;
+}
+
+/* ===================== */
+/* LAYOUT */
+/* ===================== */
+.container {
+  display: flex;
+  min-height: calc(100vh - 60px);
+}
+
+/* ===================== */
+/* SIDEBAR */
+/* ===================== */
+.sidebar {
+  width: 260px;
+  background: #0f172a;
+  border-right: 1px solid #1f2937;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.sidebar h3 {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #38bdf8;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 6px 8px;
+  border-radius: 6px;
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.sidebar a:hover {
+  background: #1e293b;
+  color: white;
+}
+
+/* active link */
+.activ {
+  background: #1e293b;
+  color: white !important;
+  font-weight: 600;
+}
+
+/* ===================== */
+/* CONTENT */
+/* ===================== */
+.content {
+  flex: 1;
+  padding: 30px;
+}
+
+/* titluri */
+.content h1 {
+  margin-top: 0;
+  font-size: 26px;
+}
+
+.content h2 {
+  color: #38bdf8;
+}
+
+/* text */
+.content p {
+  line-height: 1.6;
+  color: #cbd5e1;
+}
+
+/* ===================== */
+/* BREADCRUMB */
+/* ===================== */
+.breadcrumb {
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+
+.breadcrumb a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+/* ===================== */
+/* BUTTONS */
+/* ===================== */
+button {
+  background: #1e293b;
+  color: white;
+  border: 1px solid #334155;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #334155;
+}
+
+/* ===================== */
+/* INPUTS */
+/* ===================== */
+input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background: #0b1220;
+  color: white;
+  outline: none;
+}
+
+/* ===================== */
+/* CARDS (pentru search results) */
+/* ===================== */
+.card {
+  padding: 10px;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background: #0f172a;
+  transition: 0.2s;
+}
+
+.card:hover {
+  border-color: #38bdf8;
+}
+
+/* ===================== */
+/* LINKS GENERALE */
+/* ===================== */
+a {
+  color: #38bdf8;
+}
+
+/* ===================== */
+/* SCROLLBAR (optional dar WOW effect) */
+/* ===================== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
