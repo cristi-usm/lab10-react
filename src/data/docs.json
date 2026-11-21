@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "fundamente",
+    "title": "Fundamente",
+    "icon": "◈",
+    "description": "Conceptele esențiale",
+    "pages": [
+      { "id": "instalare", "title": "Instalare", "tags": ["start", "npm"], "content": "LumenJS se instalează în câteva secunde cu npm.\nRulează npm install lumenjs și importă funcția createApp în punctul de intrare al aplicației tale." },
+      { "id": "prima-aplicatie", "title": "Prima aplicație", "tags": ["start", "componente"], "content": "O aplicație LumenJS pornește de la un root și o configurație simplă.\nFolosește createApp pentru a conecta componentele cu elementul #root din pagina HTML." },
+      { "id": "componente", "title": "Componente", "tags": ["componente", "ui"], "content": "Componentele sunt funcții care returnează interfață reutilizabilă.\nPăstrează fiecare componentă concentrată pe o singură responsabilitate pentru un cod ușor de întreținut." },
+      { "id": "proprietati", "title": "Proprietăți", "tags": ["componente", "date"], "content": "Proprietățile transmit date de la părinte la copil.\nEle sunt imutabile în componenta copil și pot conține valori primitive, obiecte sau callback-uri." },
+      { "id": "stare", "title": "Stare locală", "tags": ["hooks", "stare"], "content": "Starea locală păstrează informația care se schimbă în timp.\nHook-ul useSignal oferă o valoare reactivă și o funcție de actualizare pentru interacțiuni fluide." }
+    ]
+  },
+  {
+    "slug": "api",
+    "title": "API Reference",
+    "icon": "⌘",
+    "description": "Referința completă API",
+    "pages": [
+      { "id": "create-app", "title": "createApp", "tags": ["api", "start"], "content": "createApp este punctul de pornire pentru orice aplicație LumenJS.\nPrimește o configurație opțională și returnează metodele mount și unmount." },
+      { "id": "use-signal", "title": "useSignal", "tags": ["api", "hooks"], "content": "useSignal creează o valoare reactivă locală.\nActualizarea semnalului notifică doar componentele care îl citesc, reducând randările inutile." },
+      { "id": "use-effect", "title": "useEffect", "tags": ["api", "hooks"], "content": "useEffect rulează efecte secundare după randare.\nReturnează o funcție de cleanup atunci când ai nevoie să oprești subscriberi sau timere." },
+      { "id": "render", "title": "render", "tags": ["api", "randare"], "content": "render inserează un arbore de componente într-un element DOM.\nPoți apela render din nou pentru a actualiza aceeași rădăcină fără a pierde starea." },
+      { "id": "configurare", "title": "Configurare", "tags": ["api", "config"], "content": "Configurația globală definește tema, logger-ul și modul de dezvoltare.\nFolosește valori explicite în producție pentru rezultate predictibile." }
+    ]
+  },
+  {
+    "slug": "ghiduri",
+    "title": "Ghiduri practice",
+    "icon": "✧",
+    "description": "Construiește lucruri reale",
+    "pages": [
+      { "id": "routing", "title": "Routing", "tags": ["routing", "navigare"], "content": "Organizează aplicațiile mari în rute independente.\nCombină un layout comun cu outlet-uri pentru a păstra navigarea rapidă și consistentă." },
+      { "id": "formulare", "title": "Formulare", "tags": ["formulare", "ui"], "content": "Formularele LumenJS folosesc binding controlat și validare declarativă.\nAfișează erorile lângă câmpul afectat și păstrează mesajele clare." },
+      { "id": "teme", "title": "Teme și design", "tags": ["css", "design"], "content": "Definește culorile și spațierile într-un obiect de temă.\nTema poate fi schimbată la runtime fără să reconstruiești arborele de componente." },
+      { "id": "performanta", "title": "Performanță", "tags": ["performanță", "optimizare"], "content": "Măsoară înainte să optimizezi.\nMemoizarea componentelor stabile și încărcarea lazy a rutelor sunt două optimizări eficiente." },
+      { "id": "testare", "title": "Testare", "tags": ["testare", "calitate"], "content": "Testează componentele prin comportamentul observabil.\nUn test bun interacționează cu interfața la fel ca un utilizator și verifică rezultatul vizibil." }
+    ]
+  },
+  {
+    "slug": "privat",
+    "title": "Laborator privat",
+    "icon": "◇",
+    "description": "Conținut protejat",
+    "pages": [
+      { "id": "notite", "title": "Note interne", "tags": ["privat"], "content": "Ai accesat zona privată LumenJS.\nAceastă pagină demonstrează o rută protejată și revenirea după autentificare." }
+    ]
+  }
+]
